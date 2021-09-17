@@ -32,6 +32,11 @@
     {% endblock %}
 
     {% block extra_js %}
+    <!--- Favicon --->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+   
     {% endblock %}
 
     <title>Fancy Day design {% block extra_title %}{% endblock %}</title>
@@ -41,7 +46,7 @@
       <div class="row">
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
               <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                  <h2 class="logo-font text-black my-0"><strong>Fancy Day Design</strong></h2>
+                  <h2 class="logo-font text-black my-0">Fancy Day Design</h2>
               </a>
           </div>
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
