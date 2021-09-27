@@ -175,7 +175,7 @@
         "name": "Balloon letter B",
         "description": "The balloon letter A is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 3,
+        "category": 2,
         "rating": 4.5,
         "image_url": null,
         "image": "balloon_b.jpg"
@@ -259,7 +259,7 @@
         "name": "Balloon letter H",
         "description": "The balloon letter H is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.3,
         "image_url": null,
         "image": "balloon_h.jpg"
@@ -273,7 +273,7 @@
         "name": "Balloon letter I",
         "description": "The balloon letter I is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_i.jpg"
@@ -287,7 +287,7 @@
         "name": "Balloon letter J",
         "description": "The balloon letter J is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_j.jpg"
@@ -301,7 +301,7 @@
         "name": "Balloon letter K",
         "description": "The balloon letter K is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.7,
         "image_url": null,
         "image": "balloon_k.jpg"
@@ -315,7 +315,7 @@
         "name": "Balloon letter L",
         "description": "The balloon letter L is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 1,
         "image_url": null,
         "image": "balloon_l.jpg"
@@ -329,7 +329,7 @@
         "name": "Balloon letter M",
         "description": "The balloon letter M is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_m.jpg"
@@ -343,7 +343,7 @@
         "name": "Balloon letter N",
         "description": "The balloon letter N is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_n.jpg"
@@ -357,7 +357,7 @@
         "name": "Balloon letter O",
         "description": "The balloon letter O is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 5,
         "image_url": null,
         "image": "balloon_o.jpg"
@@ -455,7 +455,7 @@
         "name": "Balloon letter V",
         "description": "The balloon letter V is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 3,
+        "category": 2,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_v.jpg"
@@ -469,7 +469,7 @@
         "name": "Balloon letter W",
         "description": "The balloon letter W is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 3,
+        "category": 2,
         "rating": 4.8,
         "image_url": null,
         "image": "balloon_w.jpg"
@@ -483,7 +483,7 @@
         "name": "Balloon letter X",
         "description": "The balloon letter X is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_x.jpg"
@@ -497,7 +497,7 @@
         "name": "Balloon letter Y",
         "description": "The balloon letter Y is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 1.95,
-        "category": 1,
+        "category": 2,
         "rating": 5,
         "image_url": null,
         "image": "balloon_y.jpg"
@@ -539,7 +539,7 @@
         "name": "Happy Birthday Balloon",
         "description": "Birthday soon? Surprise the birthday boy or girl with this cheerful Happy Birthday balloon. The balloons are 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
         "price": 13.99,
-        "category": 2,
+        "category": 4,
         "rating": 4.6,
         "image_url": null,
         "image": "balloon_bday.jpg"
