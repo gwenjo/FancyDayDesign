@@ -3,7 +3,6 @@ from django.contrib import messages
 from django.db.models import Q
 from .models import Product, Category
 
-
 def all_products(request):
     """ Show all products, including sorting and search queries """
 
@@ -12,7 +11,6 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
-
 
     if request.GET:
         if 'sort' in request.GET:
@@ -42,7 +40,7 @@ def all_products(request):
 
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-    
+
     current_sorting = f'{sort}_{direction}'
 
     context = {

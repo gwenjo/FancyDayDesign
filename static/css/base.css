@@ -70,6 +70,83 @@ body {
 	z-index: -1;
 }
 
+/*--------------------Footer----------------------*/
+
+.footer-info {
+	background: #514C76;
+	padding: 10px 0px;
+	color: #fafafa;
+	font-weight: bold;
+}
+
+footer {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
+.footer-link {
+    text-transform: uppercase;
+    display: block;
+    color: var(--color-white);
+    letter-spacing: 1px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: var(--color-white);
+}
+
+.contact {
+	font-size: 14px;
+	text-align: center;
+}
+
+.contact p {
+	letter-spacing: 1px;
+	color: #fafafa;
+}
+
+.title {
+	letter-spacing: 2px;
+}
+
+.title-download {
+	letter-spacing: 1px;
+}
+
+.download {
+	text-align: center;
+	font-size: 14px;
+}
+
+.download i {
+	text-align: center;
+	color: #fafafa;
+}
+
+.download i:hover {
+	color: #DB7093;
+}
+
+.social-media {
+	text-align: center;
+}
+
+.social-media li {
+	display: inline;
+}
+
+.social-media i {
+	color: #fafafa;
+	font-size: 120%;
+	margin: 1%;
+	padding: 2%;
+}
+
+.social-media li a i:hover {
+	color: #DB7093;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
