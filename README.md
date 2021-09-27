@@ -83,8 +83,6 @@ The chosen design for this website is clear and user-friendly.
 -   [JQuery](https://jquery.com/) was used to initialize some Materialize 
     elements.
 
--   Micro framework [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
-    was used for this website, flask was chosen to build the backend.
 
 **Typography**
 
