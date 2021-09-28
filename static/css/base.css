@@ -93,7 +93,7 @@ footer {
 
 .footer-link:hover {
     text-decoration: underline;
-    color: var(--color-white);
+    color: #DB7093;
 }
 
 .contact {
