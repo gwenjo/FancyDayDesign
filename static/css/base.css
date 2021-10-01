@@ -2,12 +2,9 @@ html {
     height: 100%;
 }
 
-body {
-    background: url('/media/wedding_theme.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }
 
 /* from Bulma */
@@ -87,6 +84,39 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+/*------ Homepage ------*/
+
+.border-search {
+    border: none;
+    margin-left: 2rem;
+    width: 80%;
+}
+
+#homepage-header {
+    background: url('/media/wedding_theme.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+}
+
+#home-header-h1 {
+    font-size: 65px;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+#home-header-line {
+    font-size: 20px;
+    color: rgb(20, 18, 18);
+    font-style: italic;
+    text-align: left;
+    margin-left: 10rem;
+}
+
+.header-content {
+    margin-top: 20%;
+}
+
 /*--------------------Footer----------------------*/
 
 .footer-info {
@@ -94,11 +124,6 @@ a.category-badge > span.badge:hover {
 	padding: 10px 0px;
 	color: #fafafa;
 	font-weight: bold;
-}
-
-footer {
-    background-color: var(--color-green);
-    color: var(--color-white);
 }
 
 .footer-link {
