@@ -1,40 +1,44 @@
 <footer>
     <div id="footer">
-       <!-- Footer Section -->
-    <footer class="container-fluid">
-        <div class="container">
-            <div class="footer-info">
-            <div class="row">
-                <div class="col-12 col-md-4 contact">
-                    <h6 class="title">Site:</h6>
-                    <a href="{% url 'products' %}" class="footer-link">Shop</a>
-                    <a href="" class="footer-link">About</a>
-                    <a href="" class="footer-link">Blog</a>
-                    <a href="" class="footer-link mb-15-mob">Contact</a>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row footer-row">
+                    <div class="col-sm-12 col-md-6 col-lg-3 no-padding">
+                        <a href="{% url 'products' %}" class="footer-link">Products</a>
+                        <a href="{% url 'about' %}" class="footer-link">About
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 no-padding order-md-3 order-lg-2">
+                        <a href="" class="footer-link">Blog</a>
+                        <a href="" class="footer-link mb-15-mob">Contact</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 no-padding order-md-2 order-lg-3 mt-2">
+                        <p class="footer">© Fancy Day Design 2021</p>
+                        <p>Hoofddorp</p>
+                        <p class="mb-7">The Netherlands</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 no-padding order-md-4 order-lg-4">
+                        <div class="social-media">
+                            <div class="div-footer-some">
+                                <a href="https://www.instagram.com" class="some-link" target="_blank">
+                                    <i class="fab fa-instagram fa-lg"></i>
+                                </a>
+                            </div><div class="div-footer-some">
+                                <a href="https://www.facebook.com" class="some-link" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="div-footer-some">
+                                <a href="https://www.pinterest.com" class="some-link" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 download">
-                    <h6 class="title">© Fancy Day Design 2021 </h6>
-                        <p class="title">Hoofddorp</p>
-                        <p class="title">The Netherlands</p>
-                      
-                </div>
-                <div class="col-12 col-md-4 social-media">
-                    <h6 class="title">Social Media:</h6>
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank">
-                                <i class="footer-link fab fa-facebook" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span></a></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank">
-                                <i class="footer-link fab fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span></a></li>
-                            <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank">
-                                <i class="footer-link fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span></a></li>
-                        </ul>
+                <div class="footer-line">
                 </div>
             </div>
         </div>
-    </div>
-    </footer>
     </div>
 </footer>

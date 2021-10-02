@@ -2,10 +2,6 @@ html {
     height: 100%;
 }
 
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
 
 /* from Bulma */
 .icon {
@@ -21,7 +17,11 @@ html {
 }
 
 .main-logo-link {
-    width: fit-content;
+    width: fit-content; 
+}
+
+.nav-link {
+    color: #c19c77 important;
 }
 
 .shop-now-button {
@@ -35,13 +35,26 @@ html {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: #c19c77;
+    color: white !important;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #c19c77;
     color: white;
 }
 
@@ -75,7 +88,7 @@ a.category-badge > span.badge:hover {
 .btt-button {
     height: 42px;
     width: 42px;
-    position: fixed;
+    position: right;
     bottom: 10px;
     right: 10px;
 }
@@ -84,7 +97,7 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-/*------ Homepage ------*/
+/*------ Homepage Index ------*/
 
 .border-search {
     border: none;
@@ -97,99 +110,241 @@ a.category-badge > span.badge:hover {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-}
-
-#home-header-h1 {
-    font-size: 65px;
-    text-align: left;
-    margin-left: 5rem;
+    font-family: 'Lato';
 }
 
 #home-header-line {
     font-size: 20px;
     color: rgb(20, 18, 18);
     font-style: italic;
+    font-style: bold;
+    font-style: underline;
     text-align: left;
     margin-left: 10rem;
+}
+
+#home-header-h1 {
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 3rem;
+    margin-left: 5rem;
+    text-align: left;
 }
 
 .header-content {
     margin-top: 20%;
 }
 
-/*--------------------Footer----------------------*/
+/*------ Homepage/section-1 ------*/
 
-.footer-info {
-	background: #514C76;
-	padding: 10px 0px;
-	color: #fafafa;
-	font-weight: bold;
+.home-decor{
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.new {
+    text-align: center;
+    font-size: 3.1rem;
+    line-height: 1rem;
+}
+
+.center , .center-3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+}
+
+.hp-card-3 {
+    height: 375px;
+    margin-top: 2rem;
+}
+
+.product-card-title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.product-price {
+    text-align: center;
+    line-height: .1rem;
+
+}
+
+.category-card-row {
+    margin: 35px 0;
+}
+
+.div-product-card-img img {
+    width: 100%;
+    
+}
+
+/*------ Homepage/section2 ------*/
+
+.section-2-p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.section-cta {
+    padding-left: 1.5rem;
+}
+
+.col-xs-12 {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  min-height: 200px;
+}
+
+.half-left  img,
+.half-right img {
+  height: auto;
+  width: 100%;
+}
+@media (min-width: 481px) {
+  .half-left,
+  .half-right {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+  }
+  .half-left  > .container,
+  .half-right > .container {
+    position: absolute;
+    top: 0;
+  }
+  .half-left  > .container { right: 0;}
+  .half-right > .container { left: 0; }
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/* taken from https://freefrontend.com/bootstrap-testimonials/ */
+#demo {
+    background:#fff9f9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: #c19c77;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 2rem;
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.fa-arrow-right:before, .fa-arrow-left:before {
+    background-color: #c19c77;
+    padding: 1.4rem;
+} 
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset;
+}
+
+/*------ Footer ------*/
+
+footer {
+    background-color: #c19c77;
+    color: white;
+    min-height: 130px;
+    margin-top: 4rem;
 }
 
 .footer-link {
     text-transform: uppercase;
     display: block;
-    color: var(--color-white);
-    letter-spacing: 1px;
+    color: white;
+    padding: .2rem;
 }
 
 .footer-link:hover {
     text-decoration: underline;
-    color: #DB7093;
+    color: white;
 }
 
-.contact {
-	font-size: 14px;
-	text-align: center;
+.footer-link-brand {
+    text-transform: none;
 }
 
-.contact p {
-	letter-spacing: 1px;
-	color: #fafafa;
+footer p {
+    margin-bottom: 0;
 }
 
-.title {
-	letter-spacing: 2px;
+.footer-row {
+    padding-top: 35px;
+    margin: 0;
 }
 
-.title-download {
-	letter-spacing: 1px;
+.mb-7 {
+    margin-bottom: 7px;
 }
 
-.download {
-	text-align: center;
-	font-size: 14px;
-}
-
-.download i {
-	text-align: center;
-	color: #fafafa;
-}
-
-.download i:hover {
-	color: #DB7093;
+.div-footer-some {
+    width: 27px;
+    display: inline-block;
+    font-size: 1.7rem;
 }
 
 .social-media {
-	text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
-.social-media li {
-	display: inline;
+.div-footer-some:hover {
+    border-bottom: white;
+    text-decoration: underline;
 }
 
-.social-media i {
-	color: #fafafa;
-	font-size: 120%;
-	margin: 1%;
-	padding: 2%;
+.fa-youtube-square:before,
+.fa-pinterest-p:before,
+.fa-instagram:before,
+.fa-facebook-f:before {
+    color: white;
 }
 
-.social-media li a i:hover {
-	color: #DB7093;
+/* ----------------Responsive----------------  */
+
+.home-decor{
+    font-size: 2.3rem;
 }
 
-/* -------------------------------- Media Queries */
+/* ----------------Media Queries----------------  */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
