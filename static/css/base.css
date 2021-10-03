@@ -176,7 +176,7 @@ a.category-badge > span.badge:hover {
 
 .div-product-card-img img {
     width: 100%;
-    border: 1px solid #c19c77;;
+    border: 1px solid #c19c77;
 }
 
 /*------ Homepage/section2 ------*/
@@ -222,6 +222,16 @@ a.category-badge > span.badge:hover {
 
 h2 {
     font-size: 2.5rem;
+}
+
+/*------product page-------*/
+
+.card-img-top {
+    border: 1px solid #c19c77;
+}
+
+sort-select-wrapper {
+    border: 1px solid #c19c77;
 }
 
 /* taken from https://freefrontend.com/bootstrap-testimonials/ */
