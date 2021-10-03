@@ -2,7 +2,6 @@ html {
     height: 100%;
 }
 
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -120,6 +119,7 @@ a.category-badge > span.badge:hover {
     font-style: underline;
     text-align: left;
     margin-left: 10rem;
+    text-shadow: 1px 1px;
 }
 
 #home-header-h1 {
@@ -176,6 +176,7 @@ a.category-badge > span.badge:hover {
 
 .div-product-card-img img {
     width: 100%;
+    padding:15px;
     border: 1px solid #c19c77;
 }
 
@@ -284,6 +285,51 @@ sort-select-wrapper {
 .carousel-control-next {
     transition: none;
     opacity: unset;
+}
+/*------ About page ------*/
+
+.about-heading {
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.nav-center-2 {
+    padding-left: 1rem;
+}
+
+.about-image {
+   padding:15px;
+   border: 1px solid #c19c77;
+}
+
+/*------ Gallery ------*/
+
+.div.gallery {
+    margin: auto;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+}
+  
+.div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.div.gallery img {
+    width: 100%;
+    height: auto;
+    padding:15px;
+    border: 1px solid #c19c77;
+}
+  
+.div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 /*------ Footer ------*/

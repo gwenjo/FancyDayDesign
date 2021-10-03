@@ -160,7 +160,8 @@ Cancel button
 -   Google Fonts was used to select the font for my website.
 
 **[Pexels](https://pexels.com/)** & **[Adobe Stock](https://stock.adobe.com/nl/free.com/)**
--   The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
+-   The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were 
+    used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
 
 **[Resize It](https://apps.apple.com/us/app/resize-it-image-resize/id844716779)**
 -   Resize It was used to easily crop the photos to the correct size. I used my Iphone for this
