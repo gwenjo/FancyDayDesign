@@ -160,12 +160,10 @@ Cancel button
 -   Google Fonts was used to select the font for my website.
 
 **[Pexels](https://pexels.com/)** & **[Adobe Stock](https://stock.adobe.com/nl/free.com/)**
-
--   The images for this website mostly come from Fancy Design herself. To fill up the product page I used some other pictures from pexels.com and adobe stock. The names of the photographers are listed in the media section below this page.
+-   The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
 
 **[Resize It](https://apps.apple.com/us/app/resize-it-image-resize/id844716779)**
--   Resize It was used to easily crop the photos to the correct size. I used my
-    phone for this
+-   Resize It was used to easily crop the photos to the correct size. I used my Iphone for this
 
 **[Materialize](https://materializecss.com/color.html)**
 -  For the color selection Materialize was used. 
@@ -176,8 +174,7 @@ Cancel button
 -   Css Beautifier was used for formatting my CSS code.
 
 **[Am I Responsive Design](http://ami.responsivedesign.is)**
--   For the mockup in the beginning of my readme file Am I Responsive Design 
-    was used 
+-   For the mockup in the beginning of my readme file Am I Responsive Design was used 
 
 **[W3C HTML Validator](https://validator.w3.org/)**
 -   To validate my HTML code this tool was used.
@@ -185,14 +182,16 @@ Cancel button
 **[W3C CSS Validator](http://jigsaw.w3.org/css-validator/)**
 -    To validate my CSS code this tool was used.
 
-**[Dillinger](https://dillinger.io/)**
--   To make my README file more organized Dillenger was used.
-
 **[Wave Webaim](https://wave.webaim.org/)**
 -   webaim was used to check the contrast of my website.
 
-**[JSHint](https://jshint.com/)**
--   JSHintFwas used for detecting errors and potential problems.
+**[Dillinger](https://dillinger.io/)**
+-   To make my README file more organized Dillenger was used.
+
+
+
+**[]()**
+-   
 
 ## **Testing** ##
 ---

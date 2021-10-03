@@ -25,27 +25,27 @@ html {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: #231f20;
+    color: #fff9f9;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
-    color: white;
+    background: #c19c77;
+    color: #fff9f9;
 }
 
 .btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    background: #fff9f9;
+    color: #231f20 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #231f20;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: #c19c77;
-    color: white !important;
+    color: #fff9f9 !important;
 }
 
 .shop-now-button:hover,
@@ -55,19 +55,19 @@ html {
 .btn-black:active,
 .btn-black:focus {
     background: #c19c77;
-    color: white;
+    color: #fff9f9;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #231f20 !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #231f20 !important;
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #231f20 !important;
 }
 
 .overlay {
@@ -82,7 +82,7 @@ html {
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
-    color: #fff !important;
+    color: #fff9f9 !important;
 }
 
 .btt-button {
@@ -109,8 +109,7 @@ a.category-badge > span.badge:hover {
     background: url('/media/wedding_theme.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+    color: #c19c77;
 }
 
 #home-header-line {
@@ -177,7 +176,7 @@ a.category-badge > span.badge:hover {
 
 .div-product-card-img img {
     width: 100%;
-    
+    border: 1px solid #c19c77;;
 }
 
 /*------ Homepage/section2 ------*/
@@ -204,6 +203,7 @@ a.category-badge > span.badge:hover {
   height: auto;
   width: 100%;
 }
+
 @media (min-width: 481px) {
   .half-left,
   .half-right {
@@ -280,7 +280,7 @@ h2 {
 
 footer {
     background-color: #c19c77;
-    color: white;
+    color: #fff9f9;
     min-height: 130px;
     margin-top: 4rem;
 }
@@ -288,13 +288,13 @@ footer {
 .footer-link {
     text-transform: uppercase;
     display: block;
-    color: white;
+    color: #fff9f9;
     padding: .2rem;
 }
 
 .footer-link:hover {
     text-decoration: underline;
-    color: white;
+    color: #fff9f9;
 }
 
 .footer-link-brand {
@@ -327,7 +327,7 @@ footer p {
 }
 
 .div-footer-some:hover {
-    border-bottom: white;
+    border-bottom: #fff9f9;
     text-decoration: underline;
 }
 
@@ -335,7 +335,7 @@ footer p {
 .fa-pinterest-p:before,
 .fa-instagram:before,
 .fa-facebook-f:before {
-    color: white;
+    color: #fff9f9;
 }
 
 /* ----------------Responsive----------------  */
