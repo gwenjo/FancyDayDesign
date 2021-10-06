@@ -17,6 +17,7 @@ html {
 
 .main-logo-link {
     width: fit-content; 
+    font-size: medium;
 }
 
 .nav-link {
