@@ -24,7 +24,7 @@
     color: #aab7c4;
 }
 
-background-color: #fefde5 !important;
+background-color: ##c19c77 !important;
 .fieldset-label {
     position: relative;
     right: .5rem;
@@ -33,5 +33,5 @@ background-color: #fefde5 !important;
 #payment-form .form-control,
 #card-element {
     color: #000;
-    border: 1px solid #000;
+    border: 1px solid #c19c77;
 }
