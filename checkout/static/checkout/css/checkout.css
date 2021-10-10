@@ -24,14 +24,30 @@
     color: #aab7c4;
 }
 
-background-color: ##c19c77 !important;
-.fieldset-label {
-    position: relative;
-    right: .5rem;
-}
+/*------ Checkout success ------*/
 
 #payment-form .form-control,
 #card-element {
     color: #000;
     border: 1px solid #c19c77;
+}
+
+.h2-order-confirmation {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+select,
+select option {
+    color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
+}
+
+.paid-order-details {
+    width: 80%;
+    margin: auto;
 }
