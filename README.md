@@ -22,7 +22,7 @@ export STRIPE_PUBLIC_KEY=pk_test_51Ji2ydExh6k37O8drfR8DW0WFC5FpdCVh7fqE3KoQ5zbF4
 
 export STRIPE_SECRET_KEY=sk_test_51Ji2ydExh6k37O8dIp2DZPmsghaVXGM17faW5b9eS7gxViaikEcSfXgbfHyMmFUenvcyXqcPYmpH4lzuiNH4ftcA00tgw0Many
 
-export STRIPE_WH_SECRET=whsec_uDyWj5ad9RCafi8OOIDpigjY2LQYBOXt
+export STRIPE_WH_SECRET=whsec_VS0KMd55gltaPwk8oGAuYoqluJB6QLIO
 
 # **Milestone Project 4**
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
@@ -30,6 +30,8 @@ export STRIPE_WH_SECRET=whsec_uDyWj5ad9RCafi8OOIDpigjY2LQYBOXt
 **FANCY DAY DESIGN**
 
 For my final project I chose to create a website for my sister-in-law. About 2 years ago she started making balloon decorations. From tiny balloon arches to elaborate themes for birthdays, weddings and other celebrations.<br />
+
+The website focuses on the work of Fancy Day Design but also the simple products that are sold there. The website also features a blog where ideas and comments can be submitted.
 
 Mockup!!
 <img src="readme-documents/mockup.jpg">
@@ -43,7 +45,6 @@ live site [Fancy Day Design](https://.herokuapp.com/)
     * [Design Choices](#design-choices)
 * [Wireframes](#wireframes)
 * [Features](#features)
-
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Fixed Issues](#fixed-issues)
@@ -60,15 +61,33 @@ live site [Fancy Day Design](https://.herokuapp.com/)
 ### **User Stories** ###
 ---
 ** First time user **
-
-- 
+- As a user I want to be able to view a list of all products, so i can select the products I want to buy.
+- As a user I want to be able to view a category of all products, so i can find products i'm interested in without having to search through all the products.
+- As a user I want to be able to view the product individually, so i can identify product image, price, description and product rating.
+- As a user I want to be able to view my shopping bag anytime to see my total, so i can see what my total costs are at any time
+- As a user I want to be able to see a list of available products, so i can see the best priced and sorted products.
+- As a user I want to be able to search for a product by keyword, name or descriptions, so i can find a specific product I want to buy.
+- As a user I want to be able to see what I've been looking for and if the product I want is available, so i can decide whether the product I want is available
+- As a user I want to be able to select the quantity of a product when purchasing, so i can can make sure I don't accidentally buy the wrong product or quantity
+- As a user I want to be able to view items in my shopping bag, so i can see the total cost of my purchase and all the items I will receive
+- As a user I want to be able to adjust the amount of individual items in my bag, so i can change my purchase before I check out
+- As a user I want to be able to simply enter my payment details, so i can can pay quickly and easily
+- As a user I want to be able to view an order confirmation after checkout, so i can check that I haven't made any mistakes
+- As a user I want to be able to receive an email confirmation after checking out, so i can keep the order confirmation of what I bought for my own administration
 
 ** Returning Users **
+- As a returning user I want to be able to easily register for an account, so i can view my profile and have a personal account
+- As a returning user I want to be able to login or logout, so i can access my personal account.
+- As a returning user I want to be able to recover my password in case I forget it, so i can restore access to my account
+- As a returning user I want to be able to receive an email confirmation after registering, so i can verify that my account registration was successful
+- As a returning user I want to be able to have a user profile, so i can view my personal order history and order confirmations.
+- As a returning user I want to be able to leave a comment on the website, so i can comment and read from other site users
 
--
+** Site owner’s Goal (admin): **
 
-** Site owner’s Goal: **
-
+- As a site owner i want to be able to add a product, so i can add new items to my shop
+- As a site owner i want to be able to edit/update a product, so i can
+- As a site owner i want to be able to delete a product, so i can remove items that are no longer available.
 
 ### **Design choices**
 ---
@@ -121,13 +140,13 @@ Cancel button
 
 ***Home/ Index Page***
 
-***Sign Up Page***
-***Sign In Page***
+***Product Page***
+***About Page***
 ***Profile Page***
-***Recipes Page***
-***Add Recipe Page***
+***Contact Page***
+***Blog Page***
 ***Edit Recipe Page***
-***Log Out***
+***log in/ Log Out Page***
 
 **Features Left to Implement**
 
