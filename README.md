@@ -23,7 +23,7 @@ PUBLIC_KEY=pk_test_51Ji2ydExh6k37O8drfR8DW0WFC5FpdCVh7fqE3KoQ5zbF4BIPWq3EPPo8Yfq
 
 export STRIPE_SECRET_KEY=sk_test_51Ji2ydExh6k37O8dIp2DZPmsghaVXGM17faW5b9eS7gxViaikEcSfXgbfHyMmFUenvcyXqcPYmpH4lzuiNH4ftcA00tgw0Many
 
-export STRIPE_WH_SECRET=whsec_aAech5cbNFIlJCVzk0LY4X8YY1hAervn
+export STRIPE_WH_SECRET=whsec_RkF66StuVjdvaLVJ295L5XM55SvIxzpm
 
 
 # **Milestone Project 4**
