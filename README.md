@@ -139,37 +139,60 @@ Cancel button
 
 ## **Features**
 ---
+Navigation bar is visible on all pages. On a smaller page, it turns into a bar. The navbar contains a logo and links for each section and subsection of the website.
+
+The footer contains three sections, the first section links to different sections of the website, the middle section contains the location of the stores and the third section refers to the social media links.
+
+There is a search bar on every page, where you can easily search for products by name and/or keyword
 
 ***Home/ Index Page***
+On the home page there is a button that takes you directly to the products page. Under the title be inspired you can see 3 images. Also on this page is the testimonial
 
 ***Product Page***
+Here you will find all products that are for sale in this webshop.
+
 ***About Page***
+On this page you can find information about who Fancy Day design
+
 ***Profile Page***
+
 ***Contact Page***
+
 ***Blog Page***
-***Edit Recipe Page***
-***log in/ Log Out Page***
+
 
 **Features Left to Implement**
 
 ## **Technologies**
 ---
 
-**Deployment**
+The following technologies were used for this website:
 
-* [Heroku](https://dashboard.heroku.com/) was used to deploy live site.
-* [Github](https://github.com/) was used to create a repository.
-* [Gitpod](https://gitpod.io/) was used for working in my repository.
+## Programming
+* [HTML5](https://en.wikipedia.org/wiki/HTML) HTML was used to create the layout and gave the page structure and presenting static data. In the folder 'templates' you will find all HTML files.
+* [CSS](https://en.wikipedia.org/wiki/CSS) the project used CSS stylesheets to specify style of the web document elements;
+* JavaScript - the project used JavaScript to implement Stripe, EmailJS and custom Javascript.
+* Python - the project back-end functions are written using Python.
 
-**Front-End**
+## Libraries
+* [Font Awesome](https://fontawesome.com/v4.7.0/)
+* [jQuery](https://jquery.com/)
 
-[HTML5](https://en.wikipedia.org/wiki/HTML) 
--   HTML was used to create the layout and gave the page structure and  
-    presenting static data.
--   In the folder 'templates' you will find all HTML files.
+## Database
+* [Heroku Postgres](https://www.heroku.com/postgres/)
 
-[CSS](https://en.wikipedia.org/wiki/CSS)
--   CSS was used to style and customise the layout.
+## Frameworks
+* [Bootstrap](https://getbootstrap.com/)
+* [Django](https://www.djangoproject.com/)
+
+* [EmailJS](https://www.emailjs.com/)
+* [Stripe](https://stripe.com/ie) 
+ 
+## Others
+* [GitHub](https://github.com/)
+* [Gitpod](https://gitpod.io/workspaces/)
+* [Heroku](https://dashboard.heroku.com/)
+* [AWS-S3](https://aws.amazon.com/s3/) 
 
 **Tools used**
 
@@ -181,14 +204,13 @@ Cancel button
 -   Google Fonts was used to select the font for my website.
 
 **[Pexels](https://pexels.com/)** & **[Adobe Stock](https://stock.adobe.com/nl/free.com/)**
--   The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were 
-    used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
+-   The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
 
 **[Resize It](https://apps.apple.com/us/app/resize-it-image-resize/id844716779)**
--   Resize It was used to easily crop the photos to the correct size. I used my Iphone for this
+-   Resize It was used to easily crop the photos to the correct size. I used my Iphone for this.
 
 **[Materialize](https://materializecss.com/color.html)**
--  For the color selection Materialize was used. 
+-  For the color selection Materialize was used. But then the owner came with here own colors. So i used her colours.
 
 **[W3School](https://www.w3schools.com/)**
 
@@ -234,19 +256,23 @@ Desktop
 ---
 
 
+## Heroku Deployment 
+
 
 ## **Credits**
 ---
-
+Videos from Code Institute
 
 
 
 ## **Content and Media**
 ---
+Carousel - testimonials
+-https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 THIS PROJECT IS FOR EDUCATION USE ONLY
 
-For the main foundation of this website I used Project - Boutique Ado. Then I modified it to this website.
+For the main foundation of this website I used videos from Code Institute - Project - Boutique Ado. Then I modified it to this website.
 
 Most of the photos used for the website were made by Shakira Lacroes (owner). To fill up the product page I used some other pictures from pexels.com and adobe stock.
 Obtained from Pexels.com: 
@@ -276,6 +302,8 @@ I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
 
 ### **Acknowledgements**
 ---
+
+Student Care
 
 I want to thank my friends and family who have viewed my website multiple times, have given me good criticism on my website and for putting up with my moodiness these past few weeks.
 
