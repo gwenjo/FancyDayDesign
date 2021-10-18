@@ -36,7 +36,7 @@ html {
 
 .btn-outline-black {
     background: #fff9f9;
-    color: #231f20 !important; /* use important to override link colors for <a> elements */
+    color: #231f20 !important; 
     border: 1px solid #231f20;
 }
 
@@ -98,6 +98,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+input[name='q']::placeholder {
+    color: grey;
+}
+
 /*------ Homepage Index ------*/
 
 .border-search {
@@ -114,7 +118,7 @@ a.category-badge > span.badge:hover {
 }
 
 #home-header-line {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(20, 18, 18);
     font-style: italic;
     font-style: bold;
@@ -237,7 +241,7 @@ sort-select-wrapper {
     border: 1px solid #c19c77;
 }
 
-/* taken from https://freefrontend.com/bootstrap-testimonials/ */
+/* taken from https://www.w3schools.com/howto/howto_js_slideshow.asp */
 #demo {
     background:#fff9f9;
     background-position: center;
@@ -275,6 +279,7 @@ sort-select-wrapper {
     background-color: #c19c77;
     padding: 1.4rem;
 } 
+
 .carousel-control-prev {
     justify-content: flex-start;
 }
@@ -402,7 +407,6 @@ sort-select-wrapper {
     overflow-y: auto;
 }
 
-
 /*------ Footer ------*/
 
 footer {
@@ -497,7 +501,7 @@ footer p {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
+    color: grey;
 }
 
 .allauth-form-inner-content button,
@@ -505,7 +509,7 @@ footer p {
 	/* btn */
 	display: inline-block;
     font-weight: 400;
-    color: #fff;
+    color: #fff9f9;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -525,7 +529,7 @@ footer p {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+	color: #fff9f9;
     background-color: #222;
     border-color: #222;
 }
