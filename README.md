@@ -18,13 +18,6 @@ python3 manage.py makemigrations
 python3 manage.py migrate --plan
 python3 manage.py migrate
 
-export STRIPE_
-PUBLIC_KEY=pk_test_51Ji2ydExh6k37O8drfR8DW0WFC5FpdCVh7fqE3KoQ5zbF4BIPWq3EPPo8YfqxWWY88TYAQlZJcz4NPTxk0zwRz7b003paA4F4C
-
-export STRIPE_SECRET_KEY=sk_test_51Ji2ydExh6k37O8dIp2DZPmsghaVXGM17faW5b9eS7gxViaikEcSfXgbfHyMmFUenvcyXqcPYmpH4lzuiNH4ftcA00tgw0Many
-
-export STRIPE_WH_SECRET=whsec_RkF66StuVjdvaLVJ295L5XM55SvIxzpm
-
 
 # **Milestone Project 4**
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
