@@ -114,6 +114,8 @@ The colors used for this website have been selected by Shakira Lacroes (owner).
 (Zand)			#e3d8d2
 (zand donker)		#c19c77
 
+Logo font - #8d6e63
+
 Edit button
 
 button
@@ -129,6 +131,7 @@ All Icons
 Cancel button
 
 ## **Wireframes**
+
 
 ## **Features**
 ---
