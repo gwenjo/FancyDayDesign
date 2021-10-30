@@ -173,7 +173,6 @@ input[name='q']::placeholder {
 .product-price {
     text-align: center;
     line-height: .1rem;
-
 }
 
 .category-card-row {
@@ -182,7 +181,7 @@ input[name='q']::placeholder {
 
 .div-product-card-img img {
     width: 100%;
-    padding:15px;
+    padding: 15px;
     border: 1px solid #c19c77;
 }
 
