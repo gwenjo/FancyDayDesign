@@ -1,17 +1,15 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
-{% endblock %}
-
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
+{% block content %}
+<!--- Header --->
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col text-center mt-3 mb-3 pb-1">
+            <h2 class="logo-font">Thank You</h2>
         </div>
     </div>
-<!--- Title tabs --->
+<!--- Title Tabs --->
     <div class="container">
         <div class="row shop-top-row">
             <div class="col-12">
@@ -19,9 +17,9 @@
                     <p class="title_tabs-text">
                         <a href="{% url 'home' %}" class="tabs-link">Home</a>
                         |
-                        <a href="{% url 'products' %}" class="tabs-link">Shop</a>
+                        <a href="{% url 'products' %}" class="tabs-link">Products</a>
                         |
-                        <a href="{% url 'view_bag' %}" class="tabs-link">Shopping cart</a>
+                        <a href="{% url 'view_bag' %}" class="tabs-link">Shopping bag</a>
                         |
                         <span class="active-tabs">Checkout</span>
                     </p>
@@ -29,33 +27,21 @@
             </div>
         </div>
     </div>
-{% endblock %}
-
-{% block content %}
-    <div class="overlay"></div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col text-center mt-3">
-                <h2 class="logo-font mb-4">Thank You</h2>
-                    <hr class="w-50 mb-1">
-                        <p class="text-black">Below you will find your order details. A confirmation email will be sent to the following address: <strong>{{ order.email }}</strong>.</p>
-            </div>
-        </div>
-
- <!-- Order summary -->
-<div class="container">     
+</div>
+<!--- Order Summary --->
+<div class="container">
     <div class="row">
         <div class="col-12 col-md-6 col-lg-6">
             <div class="paid-order-details">
                 <div class="div-order-details mb-4">
-                    <h2 class="h2-order-confirmation mb-3"><strong>Order details</strong></h2>
-                        <p class="mb-1"><strong>Order ID:</strong> {{ order.order_number }}</p>
-                            <p class="mb-1"><strong>Date:</strong> {{ order.date }}</p>
+                    <h2 class="h2-order-confirmation mb-3">Order details</h2>
+                    <p class="mb-1">order ID: {{ order.order_number }}</p>
+                    <p class="mb-1">date: {{ order.date }}</p>
                 </div>
                 <div class="div-order-details mb-4">
-                    <h2 class="h2-order-confirmation mb-3"><strong>Delivery details</strong></h2>
-                        <p class="mb-1"><strong>Recipient:</strong> {{ order.full_name }}</p>
-                        <p class="mb-1"><strong>Address:</strong> {{ order.street_address1 }}</p>
+                    <h2 class="h2-order-confirmation mb-3">Delivery details</h2>
+                    <p class="mb-1">recipient: {{ order.full_name }}</p>
+                    <p class="mb-1">address: {{ order.street_address1 }}</p>
                     {% if order.street_address2 %}
                     <p class="mb-1 pl-57">{{ order.street_address2 }}</p>
                     {% endif %}
@@ -68,11 +54,11 @@
                     <p class="mb-1 pl-57">{{ order.country }}</p>
                 </div>
                 <div class="div-order-details mb-4">
-                    <h2 class="h2-order-confirmation mb-3"><strong>Contact details</strong></h2>
-                    <p class="mb-1"><strong>Phone number:</strong> {{ order.phone_number }}</p>
+                    <h2 class="h2-order-confirmation mb-3">Contact details</h2>
+                    <p class="mb-1">phone number: {{ order.phone_number }}</p>
                 </div>
                 <div class="mt-5 mb-5">
-                    <a href="{% url 'products' %}" class="btn btn-black rounded-0">More products</a>
+                    <a href="{% url 'products' %}" class="btn cta cta-black rounded-0">See more products</a>
                 </div>
             </div>
         </div>
@@ -98,25 +84,25 @@
                 </div>
                 <div class="col-7 mb-4">
                     <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                        <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                    <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                 </div>
                 <div class="col-3 text-right">
                     <p class="my-0 small text-muted">€{{ item.product.price }}</p>
                 </div>
                 </div>
-                {% endfor %}
-<!-- Order product info -->
+                 {% endfor %}
+<!--- Information Order Product --->
             <hr class="line">
             <div class="row text-black text-right">
                 <div class="col-7 offset-2 mt-2">
                     <p class="my-0">Order total:</p>
-                        <p class="my-0">Delivery:</p>
-                            <p class="my-0">Grand Total:</p>
+                    <p class="my-0">Delivery:</p>
+                    <p class="my-0">Grand Total:</p>
                 </div>
                 <div class="col-3 mt-2">
                     <p class="my-0">€{{ order.order_total|floatformat:2 }}</p>
-                        <p class="my-0">€{{ order.delivery_cost|floatformat:2 }}</p>
-                            <p class="my-0"><strong>€{{ order.grand_total|floatformat:2 }}</strong></p>
+                    <p class="my-0">€{{ order.delivery_cost|floatformat:2 }}</p>
+                    <p class="my-0"><strong>€{{ order.grand_total|floatformat:2 }}</strong></p>
                 </div>
             </div>
         </div>
