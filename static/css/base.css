@@ -406,6 +406,53 @@ sort-select-wrapper {
     overflow-y: auto;
 }
 
+/*------------------------- Reviews --------------------------*/
+
+.btn-outline-secondary {
+    color: black;
+    border: 2px solid #c19c77;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #c19c77;
+    color: black;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: #fff3e0;
+    border-radius: 0;
+    border: solid 2px #fff3e0;
+}
+
+.btn-secondary:hover {
+    background-color: #fff3e0;
+    color: black;
+    border: solid 2px #fff3e0;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #c19c77;
+    border-color: #c19c77;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #c19c77;
+    color: black;
+    border: solid 2px #c19c77;
+}
+
+.border {
+    border: 1px solid black !important;
+}
+
+.text-decoration-none {
+    border: 0!important;
+    background-color: #fff9f9;
+}
+
 /*------ Footer ------*/
 
 footer {
