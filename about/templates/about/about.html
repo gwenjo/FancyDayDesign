@@ -1,108 +1,98 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col text-center mt-3">
-                    <h2 class="logo-font">About</h2>
-                        <hr class="w-50 mb-1">
+<!--- Header --->
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col text-center mt-3 mb-3 pb-1">
+            <h2 class="logo-font">About</h2>
+        </div>
+    </div>
+<!--- About image --->
+    <div class="container">
+        <div class="row align-items-center my-4">
+            <div class="col-12 col-md-6">
+                <div class="image-container my-4">
+                    <img src="/media/about-1.jpeg" alt="about-photo" width="400" height="550" class="about-image">
                 </div>
             </div>
-    <!--- About image --->
-        <div class="container">
-            <div class="row align-items-center my-4">
-                <div class="col-12 col-md-6"><br/><br/>
-                    <div class="image-container my-4">
-                        <img src="/media/about-1.jpeg" alt="about-photo" width="470" height="530" class="about-image">
-                </div>
-            </div>
-    <!--- About text container --->
-        <div class="col-12 col-md-12 col-lg-6">
-            <div class="about-details-container mb-5 mt-md-5">
-                <h2 class="about-heading">My Story</h2>
-                <hr>
+<!--- About Container --->
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="about-details-container mb-5 mt-md-5">
+                    <h2 class="about-heading text-center">My Story</h2>
+                    <hr class="w-50 mb-1">
                     <p class="about-text">Hello, my name is Shakira Lacroes, the face behind Fancy Day Design. As a young girl I regularly did photo shoots with my sisters. Everything had to be perfect, not only our clothes but also the background had to be in the right style. Even then I knew my awareness of decorating was growing and when it would stand out in a photo. <br/>
 
-                    Before I started decorating, I was active in youth care for many years. I've always enjoyed doing this. In all those years I have organized and decorated various birthdays, baby showers for almost everyone in my immediate environment. Because of my passion for decorating, it was a logical step to do this professionally as a professional party stylist.<br/><br/>
-
-                    I have already successfully contributed to many events. I am proud of the good reviews and if the customer is happy, my goal has been achieved! Also, there are already thousands of people who like and follow me on Instagram.
-                    As a customer you expect the highest level of quality from Fancy Day Design, together with the most pampering beautiful and unforgettable party experience. With wisdom and experience comes an eye for detail. It is this expectation of luxury that forms the basis of my work as a party stylist.<br/>
-                </p>
+                        Before I started decorating, I was active in youth care for many years. I've always enjoyed doing this. In all those years I have organized and decorated various birthdays, baby showers for almost everyone in my immediate environment. Because of my passion for decorating, it was a logical step to do this professionally as a professional party stylist.<br/><br/>
+    
+                        I have already successfully contributed to many events. I am proud of the good reviews and if the customer is happy, my goal has been achieved! Also, there are already thousands of people who like and follow me on Instagram.
+                        As a customer you expect the highest level of quality from Fancy Day Design, together with the most pampering beautiful and unforgettable party experience. With wisdom and experience comes an eye for detail. It is this expectation of luxury that forms the basis of my work as a party stylist.<br/>
+                    </p>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    <!--- Header --->
-        <div class="container-fluid div-section">
-            <div class="container hp-section-3-heading mt-5">
-                    <img src="/media/logo_small.jpg" width="200" height="200" alt="logo" class="center-3">
-                        <h2 class="home-decor">Some examples</h2>
-                        <hr class="w-50 mb-1">
-            </div><br/>
-            
-            <div class="row hp-section-3">
-                <div class="container">
-                    <!--- images --->
-                    <div class="row product-card-row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="div-product-card">
-                                <div class="div-product-card-img">
-                                    <a target="_blank" href="/media/dinner.jpeg"><img src="/media/dinner.jpeg" alt="Dinner Theme"></a>
+    <div class="container home-section-1-heading">
+        <img src="/media/logo_small.jpg" width="200" height="200" alt="logo" class="center-3"></br>
+            <h2 class="home-decor">My Success</h2>
+                <h3 class="new">Gallery</h3></br>
+                <div class="row home-section-3">
+                    <div class="container">
+                        <!--- images --->
+                        <div class="row product-card-row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="div-product-card">
+                                    <div class="div-product-card-img">
+                                        <a target="_blank" href="/media/dinner.jpeg"><img src="/media/dinner.jpeg" alt="Dinner Theme"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="div-product-card">
+                                    <div class="div-product-card-img">
+                                        <a target="_blank" href="/media/bday_5.jpeg"><img src="/media/bday_5.jpeg" alt="Bday 5 Theme"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="div-product-card">
+                                    <div class="div-product-card-img">
+                                        <a target="_blank" href="/media/bday_ballet.jpg"><img src="/media/bday_ballet.jpg" alt="Ballet Theme"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="div-product-card">
-                                <div class="div-product-card-img">
-                                    <a target="_blank" href="/media/bday_5.jpeg"><img src="/media/bday_5.jpeg" alt="Bday 5 Theme"></a>
+    
+                        <br/>
+    
+                        <div class="row product-card-row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="div-product-card">
+                                    <div class="div-product-card-img">
+                                        <a target="_blank" href="/media/bday_farm.jpeg"><img src="/media/bday_farm.jpeg" alt="Farm Theme"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="div-product-card">
-                                <div class="div-product-card-img">
-                                    <a target="_blank" href="/media/bday_ballet.jpg"><img src="/media/bday_ballet.jpg" alt="Ballet Theme"></a>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="div-product-card">
+                                    <div class="div-product-card-img">
+                                        <a target="_blank" href="/media/bday_safari.jpg"><img src="/media/bday_safari.jpg" alt="Safari Theme"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <br/>
-
-                    <div class="row product-card-row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="div-product-card">
-                                <div class="div-product-card-img">
-                                    <a target="_blank" href="/media/bday_farm.jpeg"><img src="/media/bday_farm.jpeg" alt="Farm Theme"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="div-product-card">
-                                <div class="div-product-card-img">
-                                    <a target="_blank" href="/media/bday_safari.jpg"><img src="/media/bday_safari.jpg" alt="Safari Theme"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="div-product-card">
-                                <div class="div-product-card-img">
-                                    <a target="_blank" href="/media/romantic.jpg"><img src="/media/romantic.jpg" alt="Romantic Theme"></a>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="div-product-card">
+                                    <div class="div-product-card-img">
+                                        <a target="_blank" href="/media/romantic.jpg"><img src="/media/romantic.jpg" alt="Romantic Theme"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-    </div>  
+    </div>
 </div>
 {% endblock %}

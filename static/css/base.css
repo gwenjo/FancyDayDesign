@@ -106,7 +106,7 @@ input[name='q']::placeholder {
     color: grey;
 }
 
-/*------ Homepage Index ------*/
+/*---------------- Homepage Index -----------------*/
 
 .border-search {
     border: none;
@@ -153,7 +153,7 @@ input[name='q']::placeholder {
 }
 
 
-/*------ Homepage/section-1 ------*/
+/*------------ Homepage Section 1 ------------*/
 
 .home-decor{
     text-align: center;
@@ -327,15 +327,15 @@ sort-select-wrapper {
     transition: none;
     opacity: unset;
 }
-/*------ About page ------*/
+/*-------------------- About page ----------------------*/
 
 .about-heading {
     text-transform: uppercase;
 }
 
 .about-text {
-    font-size: 1.1rem;
-    margin-top: .5rem;
+    font-size: 1.2rem;
+    margin-top: .7rem;
     margin-bottom: 1rem;
 }
 
@@ -345,7 +345,7 @@ sort-select-wrapper {
 
 .about-image {
    padding:15px;
-   border: 1px solid #c19c77;
+   border:2px solid #fff3e0;
 }
 
 /*------ Gallery ------*/
