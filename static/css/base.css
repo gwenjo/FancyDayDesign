@@ -241,6 +241,7 @@ input[name='q']::placeholder {
 h2 {
     font-size: 2.5rem;
 }
+
 /*----------------------- Shopping bag -------------------*/
 
 .div-line-item {
@@ -311,6 +312,72 @@ h2 {
 
 sort-select-wrapper {
     border: 1px solid #c19c77;
+}
+
+/*----------------------- Contact Page ---------------------*/
+
+div#map {min-height: 360px;}
+
+.contact-text {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.store-heading {
+    text-transform: uppercase;
+}
+
+.contact-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.center-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------ Form was taken from W3schools https://www.w3schools.com/howto/howto_css_contact_form.asp ------*/
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;  
+    margin-bottom: 16px; 
+    resize: vertical ;
+    border-radius: 0;
+}
+
+button, .cta-comment {
+  background-color: #c19c77;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c19c77;
+}
+
+.fa-arrow-up:before {
+    width: 30%;
+    display: block;
+    margin: 17px auto;
+}
+
+.scroll-to-top {
+    right: 5%;
+    width: 48px;
+    height: 48px;
+    border: solid 1px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 2.5%;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* taken from https://www.w3schools.com/howto/howto_js_slideshow.asp */
