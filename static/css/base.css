@@ -314,6 +314,57 @@ sort-select-wrapper {
     border: 1px solid #c19c77;
 }
 
+/*--------------------- Allauth Templates --------------*/
+
+.div-login-form {
+    margin-top: .7rem;
+}
+
+.form-check label, .form-check-p, .login-p, .signup-p {
+    font-size: 1rem;
+}
+
+.text-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.div-profile-form,   
+.div-password-reset-form {
+    text-align: center;
+}
+
+
+#profile-update-form input::placeholder {
+    color: grey;
+}
+
+#id_default_country option:first-child {
+    color: grey;
+}
+
+
+/*---------------------- Profile page ------------------*/
+
+.profile-container {
+    max-width: 650px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.div-profile-order {
+    border: #231f20;
+    padding: 30px 20px;
+}
+
+.profile-intro-p {
+    font-size: 1.1rem;
+}
+
+.div-logout-form {
+    text-align: center!important;
+}
+
 /*----------------------- Contact Page ---------------------*/
 
 div#map {min-height: 360px;}
