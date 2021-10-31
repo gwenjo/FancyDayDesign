@@ -19,7 +19,21 @@
                 <hr class="w-50 mb-1">
             </div>
         </div>
-
+        
+<!--- Title Tabs --->
+<div class="row shop-top-row">
+    <div class="col-12">
+        <div class="title_tabs">
+            <p class="title_tabs-text-cart">
+                <a href="{% url 'home' %}" class="tabs-link">Home</a>
+                |
+                <a href="{% url 'products' %}" class="tabs-link">Shop</a>
+                |
+                <span class="active-tabs">Shopping cart</span>
+            </p>
+        </div>
+    </div>
+</div>
         <div class="row">
             <div class="col">
                 {% if bag_items %}

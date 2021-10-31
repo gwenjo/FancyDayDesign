@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Cookie&family=Open+Sans:wght@200&display=swap');
+
+/*----------------- Overal Body-------------------*/
+
 html {
     height: 100%;
 }
@@ -112,33 +116,42 @@ input[name='q']::placeholder {
 
 #homepage-header {
     background: url('/media/wedding_theme.jpeg') no-repeat center center fixed;
+    height: 800px;
     background-size: cover;
+    margin-bottom: 4.5rem;
+    height: 90vh;
     height: calc(100vh - 164px);
     color: #c19c77;
 }
 
-#home-header-line {
-    font-size: 18px;
-    color: rgb(20, 18, 18);
-    font-style: italic;
-    font-style: bold;
-    font-style: underline;
+#home-header-h1 {
+    color: #8d6e63;
+    font-weight: 500;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 65px;
     text-align: left;
-    margin-left: 10rem;
-    text-shadow: 1px 1px;
+    margin-left: 5rem;
 }
 
-#home-header-h1 {
+#home-header-tagline {
+    font-family: 'Cookie', sans-serif;
     font-weight: 100;
-    font-size: 50px;
-    line-height: 3rem;
-    margin-left: 5rem;
-    text-align: left;
+    font-size: 70px;
+    color: black;
+    
+}
+
+#home-header {
+    font-weight: 100;
+    font-size: 70px;
+    color: var(--color-light-black);
+    font-family: 'Cookie', sans-serif;
+    line-height: 1rem;
 }
 
 .header-content {
     margin-top: 20%;
 }
+
 
 /*------ Homepage/section-1 ------*/
 
@@ -238,6 +251,28 @@ h2 {
 
 sort-select-wrapper {
     border: 1px solid #c19c77;
+}
+
+/*-------------- Products Page/Title Tabs------------------*/
+
+.title_tabs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabs-link, .tabs-link:hover {
+    color: #c19c77;
+    margin: 3px;
+}
+
+.active-tabs {
+    color: black;
+    margin: 3px;
+}
+
+.title_tabs-text {
+    text-transform: uppercase;
+    font-size: 1.1rem;
 }
 
 /* taken from https://www.w3schools.com/howto/howto_js_slideshow.asp */

@@ -1,10 +1,15 @@
-<div class="collapse navbar-collapse" id="main-nav">
+<!-- Main Nav items -->
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
-            <a class="nav-link text-black mr-5 logo-font" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Products
+        <li class="nav-item d-block d-none d-lg-none">
+            <a class="nav-link-main" href="{% url 'home' %}" id="home-link">
+                Home
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link-main" href="#" id="shop-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Products <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu border-0" aria-labelledby="shop-link">
                 <a href="{% url 'products' %}?category=balloons_0-9" class="dropdown-item">Balloons 0-9</a>
                 <a href="{% url 'products' %}?category=balloons_a-z" class="dropdown-item ">Balloons A-Z</a>
                 <a href="{% url 'products' %}?category=custom_made_balloons" class="dropdown-item ">Custom Made Balloons</a>
@@ -12,23 +17,14 @@
                 <a href="{% url 'products' %}" class="dropdown-item"> All Products</a>
             </div>
         </li>
-
         <li class="nav-item">
-            <a href="{% url 'about' %}" class="nav-link text-black mr-5 logo-font">About
-            </a>
+            <a class="nav-link-main" href="{% url 'about' %}">About</a>
         </li>
-
         <li class="nav-item">
-            <a href="{% url 'post' %}" class="nav-link text-black mr-5 logo-font">
-                Blog
-            </a>
+            <a class="nav-link-main" href="{% url 'post' %}">Blog</a>
         </li>
-
         <li class="nav-item">
-            <a href="{% url 'contact' %}" class="nav-link text-black mr-5 logo-font">
-                Contact
-            </a>
+            <a class="nav-link-main" href="{% url 'contact' %}">Contact</a>
         </li>
-        
     </ul>
 </div>
