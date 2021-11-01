@@ -6,19 +6,6 @@ python3 manage.py startapp
 
 pip3 freeze > requirements.txt
 
-
-cp -r ..//.pip-modules/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth/ 
-
-python3 manage.py loaddata categories
-python3 manage.py loaddata products
-
-python3 manage.py makemigrations --dry-run
-python3 manage.py makemigrations
-
-python3 manage.py migrate --plan
-python3 manage.py migrate
-
-
 # **Milestone Project 4**
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
 

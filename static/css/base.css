@@ -139,14 +139,14 @@ span.badge.rounded-pill {
 
 .cta-black, .cta-white:hover {
     background-color: #c19c77 !important;
-    color: black;
+    color: #fff9f9;
     text-decoration: none;
     border-radius: 0;
 }
 
 .cta-green, .cta-green:hover {
-    background-color: #fff3e0;
-    color: black;
+    background-color: #c19c77;
+    color: #fff9f9;
     text-decoration: none;
     margin-right: .5rem;
     border-radius: 0;
@@ -722,6 +722,7 @@ input[type=submit]:hover {
 
 .cat-title, .cat-title:hover {
     color: black;
+    background-color: #c19c77;
 }
 
 .add-comment {
@@ -847,7 +848,8 @@ select option[value=""] {
 }
 
 .btn-file:hover {
-    background-color: black;
+    background-color: #c19c77;
+    color: black;
 }
 
 .btn-file input[type="file"] {
