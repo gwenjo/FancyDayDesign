@@ -290,11 +290,23 @@ The content of the about.html page is written by Shakira Lacroes the owner (and 
 
 Used websites and images:
 
+Review Forms and Add to Database using forms | Build Movie Review Website Using Django 2020.
+[video](https://www.youtube.com/watch?v=lSX8nzu9ozg
+
+[Building A Blog Application With Django](https://djangocentral.com/building-a-blog-application-with-django/)
+
+Wat is een blog? [Dutch Page](https://www.blogkracht.nl/wat-is-een-blog/) 
+
+Create A Simple Django Blog from [Codemy.com](https://www.youtube.com/results?search_query=make+a+blog+with+django)
 
 **Resources**
 **Code I have used**
 
 I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
+
+
+
+
 
 ### **Acknowledgements**
 ---
