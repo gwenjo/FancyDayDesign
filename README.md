@@ -15,6 +15,13 @@ For my final project I chose to create a website for my sister-in-law. About 2 y
 
 The website focuses on the work of Fancy Day Design but also the simple products that are sold there. The website also features a blog where ideas and comments can be submitted.
 
+This website is for educational purposes only, so
+do not attempt to enter real credit card information when using the stripe functionality. For testing purposes you can use the data below:
+
+-   Stripe card number: 4242 4242 4242 4242
+-   Any card end date (in the future) you wish
+-   Anyy CVV number you wish
+
 Mockup!!
 <img src="readme-documents/mockup.jpg">
 
@@ -38,57 +45,59 @@ live site [Fancy Day Design](https://.herokuapp.com/)
 ## **UX (User Experience)** ##
 ### **Project Summary** ###
 ---
-
+As a final assignment I always said that I would make a website for my sister-in-law. Her decoration business has quickly grown into something big in a short time.
+She has indicated what she finds important, what her website should have. I set to work with her wishes and incorporated them into the website. She chose the colors for the website herself. and I was free to choose the different images.
 
 ### **User Stories** ###
 ---
 ** First time user **
-- As a user I want to be able to view a list of all products, so i can select the products I want to buy.
-- As a user I want to be able to view a category of all products, so i can find products i'm interested in without having to search through all the products.
-- As a user I want to be able to view the product individually, so i can identify product image, price, description and product rating.
-- As a user I want to be able to view my shopping bag anytime to see my total, so i can see what my total costs are at any time
-- As a user I want to be able to see a list of available products, so i can see the best priced and sorted products.
-- As a user I want to be able to search for a product by keyword, name or descriptions, so i can find a specific product I want to buy.
-- As a user I want to be able to see what I've been looking for and if the product I want is available, so i can decide whether the product I want is available
-- As a user I want to be able to select the quantity of a product when purchasing, so i can can make sure I don't accidentally buy the wrong product or quantity
-- As a user I want to be able to view items in my shopping bag, so i can see the total cost of my purchase and all the items I will receive
-- As a user I want to be able to adjust the amount of individual items in my bag, so i can change my purchase before I check out
-- As a user I want to be able to simply enter my payment details, so i can can pay quickly and easily
-- As a user I want to be able to view an order confirmation after checkout, so i can check that I haven't made any mistakes
-- As a user I want to be able to receive an email confirmation after checking out, so i can keep the order confirmation of what I bought for my own administration
+- As a user I want to be able to view a list of all products, so I can select the products I want to buy.
+- As a user I want to be able to view a category of all products, so I can find products i'm interested in without having to search through all the products.
+- As a user I want to be able to view the product individually, so I can identify product image, price, description and product rating.
+- As a user I want to be able to view my shopping bag anytime to see my total, so I can see what my total costs are at any time
+- As a user I want to be able to see a list of available products, so I can see the best priced and sorted products.
+- As a user I want to be able to search for a product by keyword, name or descriptions, so I can find a specific product I want to buy.
+- As a user I want to be able to see what I've been looking for and if the product I want is available, so I can decide whether the product I want is available
+- As a user I want to be able to select the quantity of a product when purchasing, so I can can make sure I don't accidentally buy the wrong product or quantity
+- As a user I want to be able to view items in my shopping bag, so I can see the total cost of my purchase and all the items I will receive
+- As a user I want to be able to adjust the amount of individual items in my bag, so I can change my purchase before I check out
+- As a user I want to be able to simply enter my payment details, so I can can pay quickly and easily
+- As a user I want to be able to view an order confirmation after checkout, so I can check that I haven't made any mistakes
+- As a user I want to be able to receive an email confirmation after checking out, so I can keep the order confirmation of what I bought for my own administration
 
 ** Returning Users **
 - As a returning user I want to be able to easily register for an account, so i can view my profile and have a personal account
-- As a returning user I want to be able to login or logout, so i can access my personal account.
-- As a returning user I want to be able to recover my password in case I forget it, so i can restore access to my account
-- As a returning user I want to be able to receive an email confirmation after registering, so i can verify that my account registration was successful
-- As a returning user I want to be able to have a user profile, so i can view my personal order history and order confirmations.
-- As a returning user I want to be able to leave a comment on the website, so i can comment and read from other site users
+- As a returning user I want to be able to login or logout, so I can access my personal account.
+- As a returning user I want to be able to recover my password in case I forget it, so I can restore access to my account
+- As a returning user I want to be able to receive an email confirmation after registering, so I can verify that my account registration was successful
+- As a returning user I want to be able to have a user profile, so I can view my personal order history and order confirmations.
+- As a returning user I want to be able to leave a comment on the website, so I can comment and read from other site users
 
 ** Site owner’s Goal (admin): **
 
-- As a site owner i want to be able to add a product, so i can add new items to my shop
-- As a site owner i want to be able to edit/update a product, so i can
-- As a site owner i want to be able to delete a product, so i can remove items that are no longer available.
+- As a site owner i want to be able to add a product, so I can add new items to my shop
+- As a site owner i want to be able to edit/update a product, so I can
+- As a site owner i want to be able to delete a product, so I can remove items that are no longer available.
 
 ### **Design choices**
 ---
 
 For the main foundation of this website I used the videos of Boutique ado. Then this is adapted to the chosen design so that this website is clear and user-friendly.
 
-You can always return to the homepage in the navigation bar.
+The chosen design for this website is clear and user-friendly.
+
+In the navigation and throughout the website, when clicking on the logo it will lead you back to the homepage.
 
 **Framework**
 
 
 **Typography**
 
--   [Google Fonts](https://fonts.google.com/specimen/Roboto) was used for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
+-   [Google Fonts](https://fonts.google.com/) was used for the font style of this project. The font used for this website are Archivo Narrow, Cookie and Open Sans with a backup font of Sans-serif. The fonts are simple, playful and easy to read.
 
 **Icons**
 
--   [FontAwesome](https://fontawesome.com/) was used for my forms and buttons, 
-    to make it more appealing.
+-   [FontAwesome](https://fontawesome.com/) was used for my forms and buttons, to make it more appealing.
 
 -   The Fancy Day design logo is used for the favicon. There has been made use of [Favicon](https://favicon.io/) to create this favicon.
 
@@ -96,10 +105,10 @@ You can always return to the homepage in the navigation bar.
 
 The colors used for this website have been selected by Shakira Lacroes (owner).
 
-(zwart) 		#231f20
-(gebroken wit)	#fff9f9
-(Zand)			#e3d8d2
-(zand donker)		#c19c77
+(Black) 		#231f20
+(off-white) 	#fff9f9
+(Sand)			#e3d8d2
+(Dark Sand)		#c19c77
 
 Logo font - #8d6e63
 
@@ -129,13 +138,13 @@ The footer contains three sections, the first section links to different section
 There is a search bar on every page, where you can easily search for products by name and/or keyword
 
 ***Home/ Index Page***
-On the home page there is a button that takes you directly to the products page. Under the title be inspired you can see 3 images. Also on this page is the testimonial
+On the home page there is a button that takes you directly to the products page. Under the title be inspired you can see 3 images. Also on this page you will find the testimonials.
 
 ***Product Page***
 Here you will find all products that are for sale in this webshop.
 
 ***About Page***
-On this page you can find information about who Fancy Day design
+On this page you will find information about who Fancy Day design is. Also on this page is a small gallery. Clicking on the image, will open the image on another page.
 
 ***Profile Page***
 
