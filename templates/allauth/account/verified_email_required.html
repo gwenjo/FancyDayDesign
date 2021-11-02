@@ -13,17 +13,20 @@
     </div>
 </div>
 
-{% url 'account_email' as email_url %}
+<div class="container general-container">
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            {% url 'account_email' as email_url %}
 
-<p>{% blocktrans %}This part of the site requires us to verify that
-you are who you claim to be. For this purpose, we require that you
-verify ownership of your e-mail address. {% endblocktrans %}</p>
+            <p>{% blocktrans %}This part of the site requires us to verify that
+                you are who you claim to be. For this purpose, we require that you
+                verify ownership of your e-mail address. {% endblocktrans %}</p>
 
-<p>{% blocktrans %}We have sent an e-mail to you for
-verification. Please click on the link inside this e-mail. Please
-contact us if you do not receive it within a few minutes.{% endblocktrans %}</p>
-
-<p>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail address</a>.{% endblocktrans %}</p>
-
-
+            <p>{% blocktrans %}We have sent an e-mail to you for
+                verification. Please click on the link inside this e-mail. Please
+                contact us at <a href="mailto:fandaydesign2021@gmail.com">fancydaydesign2021@gmail.com/a>
+                if you do not receive it within a few minutes.{% endblocktrans %}</p>
+        </div>
+    </div>
+</div>
 {% endblock %}
