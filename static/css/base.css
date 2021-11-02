@@ -1215,7 +1215,6 @@ footer p {
 	}
 }
 
-
 /* -----------Slightly larger container on xl screens------------*/
 
 @media (min-width: 1200px) {
@@ -1223,7 +1222,6 @@ footer p {
 		max-width: 80%;
 	}
 }
-
 
 /* -----------------Allauth form formatting--------------------- */
 

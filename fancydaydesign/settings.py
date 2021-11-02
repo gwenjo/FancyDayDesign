@@ -20,8 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'f-+_m2db3^tn^9bai6+8rgj7&v20-k-dga0rxhv_ch+aon-!q_')
+SECRET_KEY = 'django-insecure-@2c6uzssh$310h+o5y=#^_-u!_&zs*a0m$n+vbqoh_=3f41mxo'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -55,7 +54,6 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
-    'storages',
 ]
 
 MIDDLEWARE = [
@@ -124,12 +122,7 @@ WSGI_APPLICATION = 'fancydaydesign.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    DATABASES = {
+DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),

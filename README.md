@@ -176,7 +176,6 @@ The following technologies were used for this website:
 ## Frameworks
 * [Bootstrap](https://getbootstrap.com/)
 * [Django](https://www.djangoproject.com/)
-
 * [EmailJS](https://www.emailjs.com/)
 * [Stripe](https://stripe.com/ie) 
  
@@ -189,8 +188,7 @@ The following technologies were used for this website:
 **Tools used**
 
 **[Balsamiq](https://balsamiq.com/)**
--   Before I started on the website, I used Balsamiq software to set up my  
-    wireframe. <br>
+-   Before I started on the website, I used Balsamiq software to set up my wireframe. <br>
 
 **[Google Fonts](https://fonts.google.com/)**
 -   Google Fonts was used to select the font for my website.
