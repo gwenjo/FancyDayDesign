@@ -1119,7 +1119,7 @@ footer p {
 		margin-left: 2rem;
 	}
 	.fa-shopping-bag:before {
-		color: black;
+		color: black !important;
 	}
 	.about-image {
 		width: 350px;
@@ -1141,7 +1141,7 @@ footer p {
 		padding-left: 1rem;
 	}
 	.fa-shopping-bag:before {
-		color: black;
+		color: black !important;
 	}
 	.footer-row {
 		padding-bottom: 1rem;
@@ -1152,6 +1152,7 @@ footer p {
 	}
 	.about-text {
 		font-size: 1.3rem;
+		margin-top: 3rem;
 	}
 }
 
