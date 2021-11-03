@@ -1036,7 +1036,7 @@ footer p {
 	}
 	#home-header,
 	#home-header-tagline {
-		font-size: 30px;
+		font-size: 45px;
 	}
 	#home-header-h1 {
 		font-size: 50px;
@@ -1119,7 +1119,7 @@ footer p {
 		margin-left: 2rem;
 	}
 	.fa-shopping-bag:before {
-		color: black !important;
+		color: black;
 	}
 	.about-image {
 		width: 350px;
@@ -1141,7 +1141,7 @@ footer p {
 		padding-left: 1rem;
 	}
 	.fa-shopping-bag:before {
-		color: black !important;
+		color: black;
 	}
 	.footer-row {
 		padding-bottom: 1rem;
@@ -1152,7 +1152,6 @@ footer p {
 	}
 	.about-text {
 		font-size: 1.3rem;
-		margin-top: 3rem;
 	}
 }
 
