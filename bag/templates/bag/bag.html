@@ -113,13 +113,15 @@
 </div>
 {% else %}
 <!-- Empty Bag -->
-    <p class="empty-bag">There are no products in your bag yet. Look at our products!</p>
+<p class="empty-bag">There are no products in your bag yet. Look at our products!
+</p>
 <div class="col-12">
     <div class="d-flex justify-content-center">
         <a href="{% url 'products' %}" class="cta cta-black">Shop here</a>
     </div>
 </div>
 {% endif %}
+
 
 {% endblock %}
 

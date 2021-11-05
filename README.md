@@ -55,7 +55,6 @@ Only admin users can make updates and/or delete products or articles on the site
 - As a user I want to be able to view a category of all products, so I can find products i'm interested in without having to search through all the products.
 - As a user I want to be able to view the product individually, so I can identify product image, price, description and product rating.
 - As a user I want to be able to view my shopping bag anytime to see my total, so I can see what my total costs are at any time
-- As a user I want to be able to see a list of available products, so I can see the best priced and sorted products.
 - As a user I want to be able to search for a product by keyword, name or descriptions, so I can find a specific product I want to buy.
 - As a user I want to be able to see what I've been looking for and if the product I want is available, so I can decide whether the product I want is available
 - As a user I want to be able to select the quantity of a product when purchasing, so I can can make sure I don't accidentally buy the wrong product or quantity
