@@ -351,8 +351,8 @@ Desktop
             * `python3 manage.py migrate`
         * Create a new superuser for my site on heroku using the command below:
             * `python3 manage.py createsuperuser`
-        * Then commited changes and made sure not to include environmnet variables in the version control.
-        * created an if-else statement in the settings.py to use Postgres if the DATABASE_URL variable is available and otherwise use the default database in gitpod.
+        * Commit the changes and make sure not to include environmnet variables in the version control.
+        * Created an if-else statement in the settings.py to use Postgres if the DATABASE_URL variable is available and otherwise use the default database in gitpod.
         ```
         if "DATABASE_URL" in os.environ:
                 DATABASES = {
@@ -455,20 +455,20 @@ Desktop
             * Click through to the end and save the group.
             * Create a group policy
                 * Click policy and the click create policy
-                * Select the JSON tab and then import managed policies.
+                * Select the JSON tab and import managed policies.
                 * Search S3 and select on Amazons3fullaccess and import.
                 * paste in the ARN, in the resources section.
                 * Click through to review policy.
-                * Fill in the name and description and then click generate policy.
+                * Fill in the name and description and click generate policy.
             * Click on permission and attach the policy.
             * Find the policy and attach it.
 
         * Create the user
-            * Select users from the sidebar and then click on add user
-            * Create a username and then select programmatic access then click on next.
-            * Select the group to add your user too
-            * Click through to the end and then click create user.
-            * Download the CSV file containing the user keys needed to access the app
+            * Select users from the sidebar and click on "add user"
+            * Create a username and select programmatic access click on next.
+            * Select the group to add your user.
+            * Click through to the end and click create user.
+            * Download the CSV file containing the user keys needed to access the app.
     
     * Connect bucket to Django
         * Install two packages in the IDE, boto3 and django-storages:
@@ -500,7 +500,7 @@ Desktop
                     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
                     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
               ```
-        * In heroku click on settings tab and then click reveal config vars.
+        * In heroku click on settings tab and click reveal config vars.
         * Set up the environmental variables as required.
         * Create a custom storages.py in the IDE, to tell django we want to use Amazon S3 to store our static and media files.
         * Import S3Boto3Storage at the top of the custom_storages.py file.
@@ -520,7 +520,6 @@ Desktop
         * Select to grant public access.
         * Click to upload your files.
 
-
 ## **Credits**
 ---
 Videos from Code Institute
@@ -530,7 +529,7 @@ Videos from Code Institute
 ## **Content and Media**
 ---
 Carousel - testimonials
--https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 THIS PROJECT IS FOR EDUCATION USE ONLY
 
