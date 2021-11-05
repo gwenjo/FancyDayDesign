@@ -300,6 +300,136 @@ The following technologies were used for this website:
 
 ## **Testing** ##
 ---
+Testing
+
+** First time user **
+
+- As a user I want to be able to view a list of all products, so I can select the products I want to buy.
+
+When navigating to products in the navigation bar. It will open in a drop-down box. The last item of the product list is ‘all products’ sold by Fancy Day Design. Clicking this will take you to the all products page.
+
+<img src="readme-docs/testing/dropdown-products.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to view a category of all products, so I can find products I'm interested in without having to search through all the products.
+
+When navigating to products in the navigation bar. It will open in a drop-down box. There you can easily look up the categories.
+
+
+- As a user I want to be able to view the product individually, so I can identify product image, price, description and product rating.
+
+When opening the product page. you see the products on a desktop page in rows of 4. If you click on the image, the page will open and you will see the product in a larger size. If you want this product you can easily indicate that by adding it to the shopping cart
+
+<img src="readme-docs/testing/product-individually.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to view my shopping bag anytime to see my total, so I can see what my total costs are at any time
+
+Once you've added products to your bag, you can find them by clicking the bag icon at the top right. This will take you to view the shopping bag page. 
+If you do not have any items in your bag, you will receive a message that says "There are no products in your bag yet. Look at his products. You will find a button that takes you to the products page.
+
+<img src="readme-docs/testing/shopbag-no-items.jpg" width="60%" height="60%">
+
+
+<img src="readme-docs/testing/shopping-bag-total.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to search for a product by keyword, name or descriptions, so I can find a specific product I want to buy.
+
+There is a search bar in the top left corner of the page. By using keywords, you can easily find what you are looking for.
+
+<img src="readme-docs/testing/search-bar.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to select the quantity of a product when purchasing, so I can make sure I don't accidentally buy the wrong product or quantity.
+
+On the product detail page, you can increase or decrease the quantities of a product by means of an arrow in the quantity box.
+
+<img src="readme-docs/testing/quantity-box.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to view items in my shopping bag, so I can see the total cost of my purchase and all the items I will receive
+
+When you click on the bag icon, you will be taken to the shopping bag page. here you can see all the products you have in your bag.
+
+
+- As a user I want to be able to adjust the number of individual items in my bag, so I can change my purchase before I check out.
+
+
+When you are on the shopping bag page, you can easily adjust your quantities before purchasing.
+
+<img src="readme-docs/testing/shopping-final.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to simply enter my payment details, so I can pay quickly and easily
+
+You can easily make a payment via credit card via our secure checkout page.
+
+
+- As a user I want to be able to view an order confirmation after checkout, so I can check that I haven't made any mistakes.
+
+When the payment has been completed, you will see an overview on the road site. A confirmation email will also be sent to the provided email address.
+
+<img src="readme-docs/testing/checkout-view.jpg" width="60%" height="60%">
+
+You will also see a success message at the top right when the payment is successful.
+
+<img src="readme-docs/testing/succes-message.jpg" width="60%" height="60%">
+
+
+- As a user I want to be able to receive an email confirmation after checking out, so I can keep the order confirmation of what I bought for my own administration
+
+A confirmation email will also be sent to the provided email address.
+
+
+** Returning Users **
+- As a returning user I want to be able to easily register for an account, so I can view my profile and have a personal account
+
+You can easily create an account. By clicking on "my account" at the top right of the bag icon, you will be redirected to the page to register.
+When you order something for the first time, you also get the option to save the data and create an account at the same time.
+
+<img src="readme-docs/testing/create-account.jpg" width="60%" height="60%">
+
+
+- As a returning user I want to be able to login or logout, so I can access my personal account.
+
+If you have a login account, you can easily log in and out. You then create a profile page. Here you can see what you have ordered in the past. Or view your new order. You can also change your profile information.
+
+<img src="readme-docs/testing/profile-account.jpg" width="60%" height="60%">
+
+- As a returning user I want to be able to recover my password in case I forget it, so I can restore access to my account
+
+<img src="readme-docs/testing/reset-password.jpg" width="60%" height="60%">
+
+
+- As a returning user I want to be able to receive an email confirmation after registering, so I can verify that my account registration was successful
+
+<img src="readme-docs/testing/confirm-email-site.jpg" width="60%" height="60%">
+
+<img src="readme-docs/testing/confirm-email.jpg" width="60%" height="60%">
+
+
+- As a returning user I want to be able to have a user profile, so I can view my personal order history and order confirmations.
+
+If you have a login account, you can easily log in and out. You then create a profile page. Here you can see what you have ordered in the past. Or view your new order. You can also change your profile information.
+
+<img src="readme-docs/testing/order-history.jpg" width="60%" height="60%">
+
+- As a returning user I want to be able to leave a comment on the website, so I can comment and read from other site users
+
+registered and unregistered users can leave a comment on the blog page.
+
+** Site owner’s Goal (admin): **
+
+- As a site owner I want to be able to add a product, so I can add new items to my shop
+
+Only an admin user can add new products. You can do this yourself via the ADMIN page or if you are logged in as an admin.
+
+- As a site owner I want to be able to edit/update a product, so I can update/edit a product when necessary. 
+
+Only an admin user can add new products. You can do this yourself via the ADMIN page or if you are logged in as an admin.
+
+- As a site owner I want to be able to delete a product, so I can remove items that are no longer available.
 
 
 
@@ -312,6 +442,9 @@ Desktop
 <img src=" " width="50%" height="50%">
 
 ## **Fixed Issues**
+
+
+
 
 ## **Deployment**
 ---
