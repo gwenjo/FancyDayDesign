@@ -90,7 +90,6 @@ The navigation bar is visible on all pages. On a smaller device/page, it turns i
 The footer contains three sections, the first section contains the location of the store, in the middle section you will find links that lead you to different pages of the website and the third section refers to the social media links.
 There is a search bar on every page, you can easily search products by name and/or keyword.
 
-
 ##### Delivery Information Banner
 The delivery information banner appears at the top of the navigation bar on every page and is fully mobile responsive and responsive to screen size changes.
 The delivery banner gives a clear message that the user has to spend €25 euros to get free delivery.
@@ -100,17 +99,11 @@ The footer contains three sections, the first section contains the location of t
 There is a search bar on every page, you can easily search products by name and/or keyword.
 
 ##### Home page
-On the homepage you will find a hero image with the motto of Fancy Day Design.
-Then 3 images to be inspired. At the bottom of the homepage are testimonials from happy customers.
-
-##### Blog page
-The blog page contains short summarized articles about Fancy Day Design. when you click on "read the full blog post" it will take you to the full article. 
-
-The blog post also shows any comments made on the post. Any user can read and leave a comment.
+On the homepage you will find a hero image with the motto of Fancy Day Design. Then 3 images to be inspired. At the bottom of the homepage are testimonials from happy customers.
 
 ##### Products
-###### All Products
 
+###### All Products
 The navigation bar at the top of the page shows all product categories on the site for ease of use for the user. The categories to choose from are;
 *   Balloons 0-9
 *   Balloons A-Z
@@ -123,14 +116,20 @@ The 'All products' view shows every item for sale on the site.
 A user can sort the products throughout the site by name and price by choosing from the select drop-down menu at right side of the page.
 
 ###### Product details page
-
 The product detail page contains all information related to the product, quantity  and a button for adding the product to the shopping bag.
 
 ###### Reviews section
 Anyone can view the reviews of the products. When a review has been given about a certain product, it will be at the bottom of the page. Only logged in users can leave a product review in this section.
 
-###### Bag
+##### Blog page
+The blog page contains short summarized articles about Fancy Day Design. when you click on "read the full blog post" it will take you to the full article. 
 
+The blog post also shows any comments made on the post. Any user can read and leave a comment.
+
+###### About Page
+On this page you will find information about who Fancy Day design is. Also on this page is a small gallery. Clicking on the image, will open the image on another page.
+
+###### Bag
 In the top right navigation bar there is a bag icon. Once a user adds an item to the bag, the number of added products will be added to the top of the bag
 to stand. When a user clicks on the bag icon, they are taken to the bag page.
 
@@ -142,7 +141,6 @@ When the user has items in his bag, a secure checkout button appears. When he cl
 When the user completes their order, a loading overlay appears until the order is confirmed. When the order is confirmed, a checkout success page with the details of the order will appear to the user.
 
 ## Structure <a name="structure"></a>
-
 The general structure of the site remains the same throughout the project. A background image with CTA will appear on the homepage giving the user a clear intent.
 Using bootstrap styling, the forms are rendered the same throughout the site, the review form was designed manually rather than using crispy forms that use bootstrap styling. Only users who are logged in are allowed to leave a product review.
 The navigation/navigation bar on mobile devices and desktop views remain the same throughout the site.
@@ -199,31 +197,13 @@ Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](r
 Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
 
 
-### **Design choices**
----
+## Surface <a name="surface"></a>
+For the main foundation of this website I used the videos of Boutique ado. Then this is adapted to the chosen design. I wanted to make the site as simple as possible and process all the points my sister-in-law passed on. A different starting image was first chosen. But I didn't like it that much, so I changed it. The photo that has been chosen fits more with the look of the site.
 
-For the main foundation of this website I used the videos of Boutique ado. Then this is adapted to the chosen design so that this website is clear and user-friendly.
+In the navigation and throughout the website, when clicking on the logo it will lead you back to the homepage. The website generally has a fresh look and is user-friendly.
 
-The chosen design for this website is clear and user-friendly.
-
-In the navigation and throughout the website, when clicking on the logo it will lead you back to the homepage.
-
-**Framework**
-
-
-**Typography**
-
--   [Google Fonts](https://fonts.google.com/) was used for the font style of this project. The font used for this website are Archivo Narrow, Cookie and Open Sans with a backup font of Sans-serif. The fonts are simple, playful and easy to read.
-
-**Icons**
-
--   [FontAwesome](https://fontawesome.com/) was used for my forms and buttons, to make it more appealing.
-
--   The Fancy Day design logo is used for the favicon. There has been made use of [Favicon](https://favicon.io/) to create this favicon.
-
-**Colour Scheme**
-
-The colors used for this website have been selected by Shakira Lacroes (owner).
+#### Color Scheme
+The main colors used for this website have been selected by Shakira Lacroes (owner).
 
 (Black) 		#231f20
 (off-white) 	#fff9f9
@@ -232,117 +212,90 @@ The colors used for this website have been selected by Shakira Lacroes (owner).
 
 Logo font - #8d6e63
 
-Edit button
+#### Icons
 
-button
+[FontAwesome](https://fontawesome.com/) was used for forms and buttons, to make it more appealing.
 
-Card-Panel
+The Fancy Day design logo is used for the favicon. There has been made use of [Favicon](https://favicon.io/) to create this favicon. Images are credited below in the media section.
 
-Page-header 
+#### Typography/ Fonts
+[Google Fonts](https://fonts.google.com/) was used for the font style of this project. The font used for this website are Archivo Narrow, Cookie and Open Sans with a backup font of Sans-serif. The fonts are simple, playful and easy to read.
 
-Home-image h1
-
-All Icons
-
-Cancel button
-
-## **Wireframes**
-
-
-## **Features**
----
-Navigation bar is visible on all pages. On a smaller page, it turns into a bar. The navbar contains a logo and links for each section and subsection of the website.
-
-The footer contains three sections, the first section links to different sections of the website, the middle section contains the location of the stores and the third section refers to the social media links.
-
-There is a search bar on every page, where you can easily search for products by name and/or keyword
-
-***Home/ Index Page***
-On the home page there is a button that takes you directly to the products page. Under the title be inspired you can see 3 images. Also on this page you will find the testimonials.
-
-***Product Page***
-Here you will find all products that are for sale in this webshop.
-
-***About Page***
-On this page you will find information about who Fancy Day design is. Also on this page is a small gallery. Clicking on the image, will open the image on another page.
-
-***Profile Page***
-
-***Contact Page***
-
-***Blog Page***
-
-
-**Features Left to Implement**
-
-## **Technologies**
----
-
+# Technologies Used <a name="technologies-used"></a>
 The following technologies were used for this website:
 
 ## Programming
-* [HTML5](https://en.wikipedia.org/wiki/HTML) HTML was used to create the layout and gave the page structure and presenting static data. 
-* [CSS](https://en.wikipedia.org/wiki/CSS) the project used CSS stylesheets to specify style of the web document elements;
-* JavaScript - the project used JavaScript to implement Stripe, EmailJS and custom Javascript.
-* Python - the project back-end functions are written using Python.
+* [HTML5](https://html.com/) - was used to create the layout and gave the page structure and presenting static data. 
+
+* [CSS](https://en.wikipedia.org/wiki/CSS) - was used to then style the page and make it responsive through media queries, and interactive through using CSS transitions.
+
+* [JavaScript](https://www.javascript.com/) - was used throughout the website to make the site interactive.
+
+* [Python](https://www.python.org/) - was used to build the backend functionality of the web app.
 
 ## Libraries
-* [Font Awesome](https://fontawesome.com/v4.7.0/)
-* [jQuery](https://jquery.com/)
+* [Font Awesome](https://fontawesome.com/) - Font Awesome was used to source and find the icons used on the site.
 
-## Database
-* [Heroku Postgres](https://www.heroku.com/postgres/)
+* [jQuery](https://jquery.com/) - was used throughout the website to aid with thefunctionality of certain poages and the features avaliable to end users, Blog, Reviews etc..
 
 ## Frameworks
-* [Bootstrap](https://getbootstrap.com/)
-* [Django](https://www.djangoproject.com/)
+* [Bootstrap](https://getbootstrap.com/) was used to add html/css components to the site and to make the site more visually appealing to the user.
+* [Django](https://www.djangoproject.com/) - was used to create my project.
 * [EmailJS](https://www.emailjs.com/)
-* [Stripe](https://stripe.com/ie) 
- 
+* [Stripe](https://stripe.com/ie) - was useed as the payment section of the site.
+
+* [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/) - was used to create the sign-in and register account functionality of the project.
+
+* [Django Countries](https://pypi.org/project/django-countries/) - was used to select countries in the order form.
+
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - was used to style form elements.
+
+* [Stripe](https://stripe.com/ie) - was useed as the payment section of the site.
+
+* [Gunicorn](https://gunicorn.org/) - was used to deploy the site to Heroku
+
 ## Others
-* [GitHub](https://github.com/)
-* [Gitpod](https://gitpod.io/workspaces/)
-* [Heroku](https://dashboard.heroku.com/)
-* [AWS-S3](https://aws.amazon.com/s3/) 
+* [Github](https://github.com/) - was used to host and store the source code of the project.
 
-**Tools used**
+* [Gitpod](https://gitpod.io/) - was the IDE that was used to create this project.
 
-**[Balsamiq](https://balsamiq.com/)**
--   Before I started on the website, I used Balsamiq software to set up my wireframe. <br>
+* [Heroku](https://signup.heroku.com/) - was used to deploy the site and host it.
 
-**[Google Fonts](https://fonts.google.com/)**
--   Google Fonts was used to select the font for my website.
+* [AWS](https://aws.amazon.com/) - was used to store the images on the site and the static files.
 
-**[Pexels](https://pexels.com/)** & **[Adobe Stock](https://stock.adobe.com/nl/free.com/)**
--   The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
+## Tools used
 
-**[Resize It](https://apps.apple.com/us/app/resize-it-image-resize/id844716779)**
--   Resize It was used to easily crop the photos to the correct size. I used my Iphone for this.
+* [Favicon](https://favicon.io/)
 
-**[Materialize](https://materializecss.com/color.html)**
--  For the color selection Materialize was used. But then the owner came with here own colors. So i used her colours.
+    * Favicon was used to create and add a favicon to the site.
 
-**[W3School](https://www.w3schools.com/)**
+* [Autoprefixer](https://autoprefixer.github.io)
 
-**[Css Beautifier](https://www.freeformatter.com/css-beautifier.html)**
--   Css Beautifier was used for formatting my CSS code.
+    * Autoprefixer was used to parse my css file and add the vendor prefixes.
 
-**[Am I Responsive Design](http://ami.responsivedesign.is)**
--   For the mockup in the beginning of my readme file Am I Responsive Design was used 
+* [Balsamiq](https://balsamiq.com/) - was used to set up my wireframe. <br>
 
-**[W3C HTML Validator](https://validator.w3.org/)**
--   To validate my HTML code this tool was used.
+* [Google Fonts](https://fonts.google.com/) - was used to select the font for my website.
 
-**[W3C CSS Validator](http://jigsaw.w3.org/css-validator/)**
--    To validate my CSS code this tool was used.
+* [Pexels](https://pexels.com/) & [Adobe Stock](https://stock.adobe.com/nl/free.com/) - The images for this website mostly come from Fancy Design herself. To fill the product page, some other images were used from pexels.com and adobe.stock.com. The names of the photographers are listed in the media section below this page.
 
-**[Wave Webaim](https://wave.webaim.org/)**
--   webaim was used to check the contrast of my website.
+* [Resize It](https://apps.apple.com/us/app/resize-it-image-resize/id844716779) - was used to easily crop the photos to the correct size. I used my Iphone for this.
 
-**[Dillinger](https://dillinger.io/)**
--   To make my README file more organized Dillenger was used.
+* [Materialize](https://materializecss.com/color.html) - For the color selection Materialize was used. But then the owner came with here own colors. So i used her colours.
 
-Bootstrap Toasts
+* [W3School](https://www.w3schools.com/)
+
+* [Css Beautifier](https://www.freeformatter.com/css-beautifier.html) - was used for formatting my CSS code.
+
+* [Am I Responsive Design](http://ami.responsivedesign.is) - For the mockup in the beginning of my readme file Am I Responsive Design was used 
+
+* [W3C HTML Validator](https://validator.w3.org/) - To validate my HTML code this tool was used.
+
+* [W3C CSS Validator](http://jigsaw.w3.org/css-validator/) - To validate my CSS code this tool was used.
+
+* [Wave Webaim](https://wave.webaim.org/) - was used to check the contrast of my website.
+
+* [Dillinger](https://dillinger.io/) - To make my README file more organized Dillenger was used.
 
 **[]()**
 -   
