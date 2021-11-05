@@ -83,7 +83,7 @@ Only admin users can make updates and/or delete products or articles on the site
 
 ##### Navbar
 
-The navigation bar is visible on all pages. On a smaller device/page, it turns into a bar. The navigation bar contains a search bar, the name of the website (Fancy Day Design), a link to your account and a shopping cart.
+The navigation bar is visible on all pages. On a smaller device/page, it turns into a bar. The navigation bar contains a search bar, the name of the website (Fancy Day Design), a link to your account and a shopping bag.
 
 The footer contains three sections, the first section contains the location of the store, in the middle section you will find links that lead you to different pages of the website and the third section refers to the social media links.
 There is a search bar on every page, you can easily search products by name and/or keyword.
@@ -318,7 +318,7 @@ When navigating to products in the navigation bar. It will open in a drop-down b
 
 - As a user I want to be able to view the product individually, so I can identify product image, price, description and product rating.
 
-When opening the product page. you see the products on a desktop page in rows of 4. If you click on the image, the page will open and you will see the product in a larger size. If you want this product you can easily indicate that by adding it to the shopping cart
+When opening the product page. you see the products on a desktop page in rows of 4. If you click on the image, the page will open and you will see the product in a larger size. If you want this product you can easily indicate that by adding it to the shopping bag.
 
 <img src="readme-docs/testing/product-individually.jpg" width="60%" height="60%">
 
@@ -431,6 +431,127 @@ Only an admin user can add new products. You can do this yourself via the ADMIN 
 
 - As a site owner I want to be able to delete a product, so I can remove items that are no longer available.
 
+#### Further testing
+The website has been tested on multiple browsers such as:
+- Safari (IOS) – The website works as it should in Safari
+- 		Google Chrome - The website works as it should in Google Chrome
+
+The website has been tested on various devices such as:
+-	Laptop (13 inch Macbook air)
+-  	Ipad mini
+
+## Home page
+<img src="readme-docs/testing/homepage.jpg" width="60%" height="60%">
+
+On the homepage you will find a hero image with the motto title: A special moment deserves a
+Fancy Day Design. Then 3 images to be inspired. At the bottom of the homepage are testimonials from happy customers.
+
+When you go to the homepage and scroll down to the testimonials. The testimonials carousel moves on its own. The carousel works as it should.
+
+## Navbar + Delivery Information Banner
+
+<img src="readme-docs/testing/navbar.jpg" width="60%" height="60%">
+
+The navigation bar is visible on all pages. On a smaller device/page, it turns into a bar. The navigation bar contains a search bar, the name of the website (Fancy Day Design), a link to your account and a shopping bag.
+
+The delivery information banner appears at the top of the navigation bar on every page and is fully mobile responsive and responsive to screen size changes.
+The delivery banner gives a clear message that the user has to spend €25 euros to get free delivery.
+
+The navigation bar remains consistent at the top of every page. It contains the most important links and navigation throughout the site. The navbar contains product categories on the site via a drop-downs.
+
+The navigation bar is mobile responsive and responds to changes in screen size. It also enables a collapsible bar menu on mobile screens.
+
+
+## Footer
+
+The footer contains three sections, the first section contains the location of the store, in the middle section you will find links that lead you to different pages of the website and the third section refers to the social media links.
+There is a search bar on every page, you can easily search products by name and/or keyword. A
+The social media icons will have an underlined hover in place. The title will underline when u hover over it. All links on the footer have been tested and work properly.
+
+<img src="readme-docs/testing/footer.jpg" width="60%" height="60%">
+
+## Products
+
+## All Products
+The navigation bar at the top of the page shows all product categories on the site for ease of use for the user. The categories to choose from are;
+*   Balloons 0-9
+*   Balloons A-Z
+*   Custom Made Balloons
+*   More Balloons and
+*   All Products
+
+The 'All products' view shows every item for sale on the site.
+
+A user can sort the products throughout the site by name and price by choosing from the select drop-down menu at right side of the page.
+All links and buttons have been tested and work properly, on desktop and mobile.
+
+<img src="readme-docs/testing/products.jpg" width="60%" height="60%">
+
+
+## Product details page
+The product detail page contains all information related to the product, quantity and a button for adding the product to the shopping bag.
+
+<img src="readme-docs/testing/product-detail.jpg" width="60%" height="60%">
+<img src="readme-docs/testing/product-detail-add.jpg" width="60%" height="60%">
+
+
+## Reviews section
+Anyone can view the reviews of the products. When a review has been given about a certain product, it will be at the bottom of the page. 
+Only logged in users can leave a product review in this section.
+When logged in all links and buttons have been tested and work properly, on desktop and mobile.
+All links and buttons have been tested and work properly, on desktop and mobile.
+
+
+<img src="readme-docs/testing/review.png" width="60%" height="60%">
+
+<img src="readme-docs/testing/write-review.png" width="60%" height="60%">
+
+<img src="readme-docs/testing/added-review.png" width="60%" height="60%">
+
+
+## Blog page
+The blog page contains short summarized articles about Fancy Day Design. when you click on "read the full blog post" it will take you to the full article. 
+The blog post also shows any comments made on the post. Any user can read and leave a comment.
+Add Blog Post button is displayed at the top of the page, providing an easy way for admins to add a blog post to the site. The button is not displayed for regular users.
+All links and buttons have been tested and work properly, on desktop and mobile.
+
+## Blog Post page
+Blog Post Page is a single page with all the details of a relevant blog post. It contains the main text, images and a comment section. The blog post shows any comments made on the post. Any user can read comments, but only logged in users can leave a comment.
+
+## Add BlogPost page
+Only a admin/superusers will be able to access this page.
+This page can be accessed by clicking on add blog post button at the top of the blog page for admin users only can see this button.
+
+
+## About Page
+On this page you will find information about who Fancy Day design is. Also, on this page is a small gallery. Clicking on the image, will open the image on another page.
+All links have been tested and work properly, on desktop and mobile.
+
+
+## Bag
+In the top right navigation bar, there is a bag icon. Once a user adds an item to the bag, the number of added products will be added to the top of the bag
+to stand. When a user clicks on the bag icon, they are taken to the bag page.
+
+When a user clicks the bag icon while they have no items in the bag a message will appear stating "There are no products in your bag yet. Check out our products!" below the message will be a button that will direct you back to the products page.
+All links and buttons have been tested and work properly, on desktop and mobile.
+
+
+## Checkout
+When the user has items in his bag, a secure checkout button appears. When he clicks this checkout button, he is taken to the checkout page where he can complete his order and pay for his order via stripe.
+
+When the user completes their order, a loading overlay appears until the order is confirmed. When the order is confirmed, a checkout success page with the details of the order will appear to the user.
+All links and buttons have been tested and work properly, on desktop and mobile.
+
+
+## Contact form
+I have tried to make this contact form work. But due to time constraints I couldn't do this.
+
+You can fill in everything but it will give an error if you want to send it.
+
+I am aware of this issue and I will be addressing it in the near future so that everything works as it should.
+
+<img src="readme-docs/testing/contact-form.jpg" width="60%" height="60%">
+
 
 
 **Lighthouse**
@@ -443,7 +564,9 @@ Desktop
 
 ## **Fixed Issues**
 
+I am aware that there are several bugs in my code. I ran out of time. As a single parent of three, I don't have much choice. I also work full time. My deadline is now. Because I didn't have time I couldn't have contact with my mentor
 
+I have not been able to perform all the tests.
 
 
 ## **Deployment**
@@ -651,22 +774,40 @@ Desktop
         * Select to grant public access.
         * Click to upload your files.
 
-## **Credits**
----
-Videos from Code Institute
+# Credits <a name="credits"></a>
 
+### Content and Media
 
-
-## **Content and Media**
----
 Carousel - testimonials
-https://www.w3schools.com/howto/howto_js_slideshow.asp
+-https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 THIS PROJECT IS FOR EDUCATION USE ONLY
 
 For the main foundation of this website I used videos from Code Institute - Project - Boutique Ado. Then I modified it to this website.
 
-Most of the photos used for the website were made by Shakira Lacroes (owner). To fill up the product page I used some other pictures from pexels.com and adobe stock.
+
+The content of the about.html page is written by Shakira Lacroes the owner (and my sister in law) of Fancy Day Design.
+
+**Code I have used**
+Used websites and images:
+
+Review Forms and Add to Database using forms | Build Movie Review Website Using Django 2020.
+[video](https://www.youtube.com/watch?v=lSX8nzu9ozg)
+
+[Building A Blog Application With Django](https://djangocentral.com/building-a-blog-application-with-django/)
+
+Wat is een blog? [Dutch Page](https://www.blogkracht.nl/wat-is-een-blog/) 
+
+Create A Simple Django Blog from [Codemy.com](https://www.youtube.com/results?search_query=make+a+blog+with+django)
+
+* [bootstrap 5](https://getbootstrap.com/) was used to style the site and to make it more visually appealing for the reader and user.
+
+* Some of the backend code was taken from the walkthrough project of Boutique Ado and some frontend bootstrap classes are similar to what was used in the walthrough project as I wanted a similar feel for my site.
+
+
+### Media
+
+Most of the images used for the website were made by Shakira Lacroes (owner). To fill up the product page I used some other pictures from pexels.com and adobe stock.
 Obtained from Pexels.com: 
 
 -	Ring Balloon & Happy Birthday Balloon - Polina Tankilevitch
@@ -682,37 +823,14 @@ Obtained from stock.adobe.com/nl/free:
 -	Gender reveal balloon.
 
 
-The content of the about.html page is written by Shakira Lacroes the owner (and my sister in law) of Fancy Day Design.
+### Acknowledgements
 
-Used websites and images:
+*   Student Care
 
-Review Forms and Add to Database using forms | Build Movie Review Website Using Django 2020.
-[video](https://www.youtube.com/watch?v=lSX8nzu9ozg
+*   I want to thank my friends and family who have viewed my website multiple times, have given me good criticism on my website and for putting up with my moodiness these past few weeks.
 
-[Building A Blog Application With Django](https://djangocentral.com/building-a-blog-application-with-django/)
+*   I would also want to thank my mentor who believed in me that I can do this project in 3 weeks and my fellow student Daphne for always staying positive!
 
-Wat is een blog? [Dutch Page](https://www.blogkracht.nl/wat-is-een-blog/) 
-
-Create A Simple Django Blog from [Codemy.com](https://www.youtube.com/results?search_query=make+a+blog+with+django)
-
-**Resources**
-**Code I have used**
-
-I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
-
-
-
-
-
-### **Acknowledgements**
----
-
-Student Care
-
-I want to thank my friends and family who have viewed my website multiple times, have given me good criticism on my website and for putting up with my moodiness these past few weeks.
-
-I would also want to thank my mentor who believed in me that I can do this project in 3 weeks and my fellow student Daphne for always staying positive!
-
-The Slack community!
+*   The Slack community!
 
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
