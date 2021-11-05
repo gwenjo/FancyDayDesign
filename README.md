@@ -1,15 +1,8 @@
-python3 -m http.server
-
-python3 manage.py runserver
-
-python3 manage.py startapp 
-
-pip3 freeze > requirements.txt
-
-# **Milestone Project 4**
+## Milestone Project 4
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
 
 **FANCY DAY DESIGN**
+---
 
 For my final project I chose to create a website for my sister-in-law. About 2 years ago she started making balloon decorations. From tiny balloon arches to elaborate themes for birthdays, weddings and other celebrations.<br />
 
@@ -22,34 +15,41 @@ do not attempt to enter real credit card information when using the stripe funct
 -   Any card end date (in the future) you wish
 -   Anyy CVV number you wish
 
-Mockup!!
-<img src="readme-documents/mockup.jpg">
+<img src="readme-docs/images/mockup.jpg">
 
-live site [Fancy Day Design](https://.herokuapp.com/)
+live site [Fancy Day Design](https://fancydaydesign.herokuapp.com/)
 
-## **Contents** ##
-* UX
-    * [Project Summary](#project-summary)
-    * [User Stories](#user-stories)
-    * [Design Choices](#design-choices)
-* [Wireframes](#wireframes)
-* [Features](#features)
-* [Technologies](#technologies)
-* [Testing](#testing)
-* [Fixed Issues](#fixed-issues)
-* [Deployment](#deployment)
-* [Credit](#credits)
-* [Content and Media](#content-media)
+# Table of contents
 
+1. [UX](#ux)
+    * [strategy](#strategy)
+        * [user stories](#user-stories)
+        * [site goals](#site-goals)
+    * [scope](#scope)
+        * [features](#features)
+        * [Features Left to Implement](#features-left-to-implement)
+    * [structure](#structure)
+    * [skeleton](#skeleton)
+        * [wireframes](#wireframes)
+    * [surface](#surface)
+2. [Technologies Used](#technologies-used)
+3. [Testing](#testing)
+4. [Deployment](#deployment)
+5. [Credits](#credits)
 
-## **UX (User Experience)** ##
-### **Project Summary** ###
----
+# UX <a name="ux"></a>
+
+## Strategy <a name="strategy"></a>
+
 As a final assignment I always said that I would make a website for my sister-in-law. Her decoration business has quickly grown into something big in a short time.
 She has indicated what she finds important, what her website should have. I set to work with her wishes and incorporated them into the website. She chose the colors for the website herself. and I was free to choose the different images.
 
-### **User Stories** ###
----
+For this website I have created a blog page so that the selected admins can write articles on the site.
+
+Only admin users can make updates and/or delete products or articles on the site. While 'normal' site users review, edit/delete various products and comment on the blog page.
+
+### User Stories <a name="user-stories"></a>
+
 ** First time user **
 - As a user I want to be able to view a list of all products, so I can select the products I want to buy.
 - As a user I want to be able to view a category of all products, so I can find products i'm interested in without having to search through all the products.
@@ -73,11 +73,131 @@ She has indicated what she finds important, what her website should have. I set 
 - As a returning user I want to be able to have a user profile, so I can view my personal order history and order confirmations.
 - As a returning user I want to be able to leave a comment on the website, so I can comment and read from other site users
 
-** Site owner’s Goal (admin): **
+### Site Goals <a name="site-goals"></a>
 
 - As a site owner i want to be able to add a product, so I can add new items to my shop
 - As a site owner i want to be able to edit/update a product, so I can
 - As a site owner i want to be able to delete a product, so I can remove items that are no longer available.
+
+## Scope <a name="scope"></a>
+---
+### Features <a name="features"></a>
+
+##### Navbar
+
+The navigation bar is visible on all pages. On a smaller device/page, it turns into a bar. The navigation bar contains a search bar, the name of the website (Fancy Day Design), a link to your account and a shopping cart.
+
+The footer contains three sections, the first section contains the location of the store, in the middle section you will find links that lead you to different pages of the website and the third section refers to the social media links.
+There is a search bar on every page, you can easily search products by name and/or keyword.
+
+
+##### Delivery Information Banner
+The delivery information banner appears at the top of the navigation bar on every page and is fully mobile responsive and responsive to screen size changes.
+The delivery banner gives a clear message that the user has to spend €25 euros to get free delivery.
+
+##### Footer
+The footer contains three sections, the first section contains the location of the store, in the middle section you will find links that lead you to different pages of the website and the third section refers to the social media links.
+There is a search bar on every page, you can easily search products by name and/or keyword.
+
+##### Home page
+On the homepage you will find a hero image with the motto of Fancy Day Design.
+Then 3 images to be inspired. At the bottom of the homepage are testimonials from happy customers.
+
+##### Blog page
+The blog page contains short summarized articles about Fancy Day Design. when you click on "read the full blog post" it will take you to the full article. 
+
+The blog post also shows any comments made on the post. Any user can read and leave a comment.
+
+##### Products
+###### All Products
+
+The navigation bar at the top of the page shows all product categories on the site for ease of use for the user. The categories to choose from are;
+*   Balloons 0-9
+*   Balloons A-Z
+*   Custom Made Balloons
+*   More Balloons and
+*   All Products
+
+The 'All products' view shows every item for sale on the site.
+
+A user can sort the products throughout the site by name and price by choosing from the select drop-down menu at right side of the page.
+
+###### Product details page
+
+The product detail page contains all information related to the product, quantity  and a button for adding the product to the shopping bag.
+
+###### Reviews section
+Anyone can view the reviews of the products. When a review has been given about a certain product, it will be at the bottom of the page. Only logged in users can leave a product review in this section.
+
+###### Bag
+
+In the top right navigation bar there is a bag icon. Once a user adds an item to the bag, the number of added products will be added to the top of the bag
+to stand. When a user clicks on the bag icon, they are taken to the bag page.
+
+When a user clicks the bag icon while they have no items in the bag a message will appear stating "There are no products in your bag yet. Check out our products!" below the message will be a button that will direct you back to the products page.
+
+###### Checkout
+When the user has items in his bag, a secure checkout button appears. When he clicks this checkout button, he is taken to the checkout page where he can complete his order and pay for his order via stripe .
+
+When the user completes their order, a loading overlay appears until the order is confirmed. When the order is confirmed, a checkout success page with the details of the order will appear to the user.
+
+## Structure <a name="structure"></a>
+
+The general structure of the site remains the same throughout the project. A background image with CTA will appear on the homepage giving the user a clear intent.
+Using bootstrap styling, the forms are rendered the same throughout the site, the review form was designed manually rather than using crispy forms that use bootstrap styling. Only users who are logged in are allowed to leave a product review.
+The navigation/navigation bar on mobile devices and desktop views remain the same throughout the site.
+
+Buttons and links are used throughout the site to facilitate navigation between pages and site functionality.
+
+### Features Left to Implement <a name="features-left-to-implement"></a>
+-   Entering an email address for newsletter.
+-   Adding a Calender for making reservations.
+-   
+-
+
+## Skeleton <a name="skeleton"></a>
+For the user stories [Balsamiq](https://balsamiq.com/) was used to create a nice and simple layout for the desktop and mobile screen.
+
+#### Wireframes <a name="wireframes"></a>
+Links to the wireframes can be found here:
+
+Desktop Wireframes <br>
+1.  <img src="readme-docs/wireframes/desktop-home.png" width="60%" height="60%">
+2.  <img src="readme-docs/wireframes/desktop-products.png" width="60%" height="60%">
+3.  <img src="readme-docs/wireframes/desktop-blog.png" width="60%" height="60%">
+4.  <img src="readme-docs/wireframes/desktop-about.png" width="60%" height="60%">
+5.  <img src="readme-docs/wireframes/desktop-contact.png" width="60%" height="60%">
+
+Desktop Wireframe, for bigger image click here the following numbers [ (1.) ](readme-docs/wireframes/desktop-home.png)[ (2.) ](readme-docs/wireframes/desktop-products.pn)[ (3.) ](readme-docs/wireframes/desktop-blog.png)[ (4.) ](readme-docs/wireframes/desktop-about.png)[ (5.) ](readme-docs/wireframes/desktop-contact.png)
+
+Tablet Wireframes <br>
+1.1  <img src="readme-docs/wireframes/tablet-home.png" width="60%" height="60%">
+
+2.1  <img src="readme-docs/wireframes/tablet-products.png" width="60%" height="60%">
+
+3.1  <img src="readme-docs/wireframes/tablet-blog.png" width="60%" height="60%">
+
+4.1  <img src="readme-docs/wireframes/tablet-about.png" width="60%" height="60%">
+
+5.1  <img src="readme-docs/wireframes/tablet-contact.png" width="60%" height="60%">
+
+Desktop Wireframe, for bigger image click here the following numbers [ (1.1) ](readme-docs/wireframes/tablet-home.png)[ (2.1) ](readme-docs/wireframes/tablet-products.pn)[ (3.1) ](readme-docs/wireframes/tablet-blog.png)[ (4.1) ](readme-docs/wireframes/tablet-about.png)[ (5.1) ](readme-docs/wireframes/tablet-contact.png)
+
+Mobile Wireframe <br>
+1a. <img src="readme-docs/wireframes/mobile-home.png" width="60%" height="60%">
+
+2a. <img src="readme-docs/wireframes/mobile-products.png" width="60%" height="60%">
+
+3a. <img src="readme-docs/wireframes/mobile-blog.png" width="60%" height="60%">
+
+4a. <img src="readme-docs/wireframes/mobile-about.png" width="60%" height="60%">
+
+5a. <img src="readme-docs/wireframes/mobile-contact.png" width="60%" height="60%">
+
+Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](readme-docs/wireframes/mobile-home.png)[ (2a.) ](readme-docs/wireframes/mobile-products.png)[ (3a.) ](readme-docs/wireframes/mobile-blog.png)[ (4a.) ](readme-docs/wireframes/mobile-about.png)[ (5a.) ](readme-docs/wireframes/mobile-contact.png)
+
+Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
+
 
 ### **Design choices**
 ---
@@ -161,7 +281,7 @@ On this page you will find information about who Fancy Day design is. Also on th
 The following technologies were used for this website:
 
 ## Programming
-* [HTML5](https://en.wikipedia.org/wiki/HTML) HTML was used to create the layout and gave the page structure and presenting static data. In the folder 'templates' you will find all HTML files.
+* [HTML5](https://en.wikipedia.org/wiki/HTML) HTML was used to create the layout and gave the page structure and presenting static data. 
 * [CSS](https://en.wikipedia.org/wiki/CSS) the project used CSS stylesheets to specify style of the web document elements;
 * JavaScript - the project used JavaScript to implement Stripe, EmailJS and custom Javascript.
 * Python - the project back-end functions are written using Python.
