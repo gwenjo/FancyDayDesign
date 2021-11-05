@@ -806,7 +806,6 @@ select option[value=""] {
     color: grey;
 }
 
-
 /*---------------------- Profile page ------------------*/
 
 .profile-container {
@@ -1164,6 +1163,10 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0.5rem;
     }
+}
+
+@media(max-width:767px) {
+
 }
 
 @media(max-width:767px) {

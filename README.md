@@ -56,11 +56,10 @@ Only admin users can make updates and/or delete products or articles on the site
 - As a user I want to be able to view the product individually, so I can identify product image, price, description and product rating.
 - As a user I want to be able to view my shopping bag anytime to see my total, so I can see what my total costs are at any time
 - As a user I want to be able to search for a product by keyword, name or descriptions, so I can find a specific product I want to buy.
-- As a user I want to be able to see what I've been looking for and if the product I want is available, so I can decide whether the product I want is available
-- As a user I want to be able to select the quantity of a product when purchasing, so I can can make sure I don't accidentally buy the wrong product or quantity
+- As a user I want to be able to select the quantity of a product when purchasing, so I can make sure I don't accidentally buy the wrong product or quantity
 - As a user I want to be able to view items in my shopping bag, so I can see the total cost of my purchase and all the items I will receive
 - As a user I want to be able to adjust the amount of individual items in my bag, so I can change my purchase before I check out
-- As a user I want to be able to simply enter my payment details, so I can can pay quickly and easily
+- As a user I want to be able to simply enter my payment details, so I can pay quickly and easily
 - As a user I want to be able to view an order confirmation after checkout, so I can check that I haven't made any mistakes
 - As a user I want to be able to receive an email confirmation after checking out, so I can keep the order confirmation of what I bought for my own administration
 
@@ -75,7 +74,7 @@ Only admin users can make updates and/or delete products or articles on the site
 ### Site Goals <a name="site-goals"></a>
 
 - As a site owner i want to be able to add a product, so I can add new items to my shop
-- As a site owner i want to be able to edit/update a product, so I can
+- As a site owner i want to be able to edit/update a product, so I can update/edit a product when necessary. 
 - As a site owner i want to be able to delete a product, so I can remove items that are no longer available.
 
 ## Scope <a name="scope"></a>
